@@ -1,0 +1,98 @@
+/* einvoice-report.css — the report view "Lite", rendered by `src/Lite/Renderer.php`.
+ *
+ * ⚠️ **THE LOOK COMES FROM THE DESIGN KIT, NOT FROM THIS FILE.** The view uses the kit's
+ * components: `.verdict` for the header, `.findings` and `.finding` for the list, `.sev` for the
+ * severity, `.edge-err`/`.edge-warn`/`.edge-info` for the signal edge, `.filterbar` and `.chip-btn`
+ * for the filter, `.tbl` for the check steps, `.tbl.tree` for the document, `.eyebrow` for the
+ * section label, `.note` for the notice and `.empty` for the empty state.
+ *
+ * Only what the kit does not cover stands here - five things.
+ *
+ * ⚠️ **THE KIT MUST BE LOADED INTO THE SAME SHADOW ROOT AS THIS FILE.** A `:root` token of the
+ * host page does not reach a shadow root, and an `@import` would start a network request from
+ * inside a shadow DOM. `<einvoice-report data-css="…">` therefore takes **several** addresses:
+ * this file first, the kit after it.
+ *
+ * ⚠️ **THIS FILE CARRIES NO TOKENS OF ITS OWN.** A hand-made copy of the kit's tokens has to be
+ * updated whenever the kit changes, and a token that is used but never set ( `--err-soft`,
+ * `--ok-soft`, `--warn-soft` would be such cases ) fails silently: an unknown token yields no
+ * value and no message.
+ *
+ * ⚠️ **THIS FILE STANDS BEFORE THE KIT, SO EVERY RULE HERE MUST WIN BY SPECIFICITY.** All
+ * five do: they name two classes where the kit names one.
+ *
+ * ⚠️ **THE CONSUMERS:** this package is part of the three validators, both Validation Explorers,
+ * `einvoice-documents-gf` and `gravityforms_gpdf-en16931`. The report looks the same in all of them;
+ * the verdict at the top is a **filled** surface in green or red, because that is the kit's
+ * `.verdict` component.
+ */
+
+/* **1. The reset of the shadow root.**
+ *
+ * ⚠️ A shadow root inherits font, size and colour from the host. Without this rule the report would
+ * look different in every theme - which is the whole reason it sits in a shadow root.
+ *
+ * ⚠️ **NO GREY PAPER SURFACE UNDER THE REPORT.** The kit puts its white cards on `--bg`, and it
+ * would be obvious to supply that surface here. The report, however, is a piece of content in
+ * someone else's page and stands on that page's background, just like viewer, validators and
+ * explorers; a grey box around it reads as a foreign body. The borders of the cards carry the
+ * structure. The padding stays, so that the report does not stick to the edge of its container. */
+
+:host {
+	display: block;
+	font-family: var( --font );
+	font-size: var( --fs );
+	line-height: 1.5;
+	color: var( --text );
+	text-align: left;
+	padding: var( --pad );
+}
+
+/* **2. A finding is a three-column grid, not a padded block.**
+ *
+ * The kit pads `.finding` for a detailed presentation with header line, explanation and suggested
+ * fix. The Lite view shows three things in one line: severity, rule, message. The path stands
+ * below them across the full width. The kit has no compact variant of `.finding`; reported as a gap.
+ *
+ * ⚠️ **THE RULES NAME OWN CLASSES ( `ereport-…` ), NOT THE KIT'S.** A rule on `.finding` or `.findings`
+ * would rebuild the kit's block, and the kit gate stops the build for it. `.findings` stands in front
+ * only for the weight: this file is loaded **before** the kit, so the order does not help here. */
+
+.findings .ereport-finding {
+	display: grid;
+	grid-template-columns: auto auto 1fr;
+	column-gap: 8px;
+	row-gap: 2px;
+	align-items: baseline;
+	padding: 8px 12px;
+	cursor: default;
+}
+
+.findings .ereport-span {
+	grid-column: 1 / -1;
+	margin-bottom: 0;
+}
+
+/* **3. The filter buttons are the kit's `.chip`, the active ones with `.on`** ( since 19.10.2026 ). The
+ * script sets `.on` and `aria-pressed` together. Until then this place gave `.chip-btn` a pressed state
+ * of its own, which no other kit knew. */
+
+/* **4. The list has no bullets.**
+ *
+ * It is a `<ul>`, because a list of findings is a list. The kit styles `.findings` as a frame and
+ * says nothing about bullets. */
+
+.ereport-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* **5. The path in the document breaks at any point.**
+ *
+ * ⚠️ An XPath has no spaces. Without `word-break` a long path stretches the column, and in a narrow
+ * container the whole view scrolls horizontally. */
+
+.ereport-path {
+	word-break: break-all;
+}

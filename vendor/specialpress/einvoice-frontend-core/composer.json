@@ -1,0 +1,21 @@
+{
+    "name": "specialpress/einvoice-frontend-core",
+    "description": "The engine-independent half of a validator frontend: upload acceptance, the report view pipeline (read -> attach document -> render), and the adapter contract every engine implements. No WordPress admin UI, no engine.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "version": "1.1.1",
+    "authors": [
+        {
+            "name": "Ralf Fuhrmann",
+            "homepage": "https://www.specialpress.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpecialPress\\EInvoice\\FrontendCore\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

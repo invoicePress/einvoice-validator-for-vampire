@@ -1,0 +1,25 @@
+Dies ist eine formale Prüfung, ob die umsatzsteuerlich vorgeschriebenen Angaben im Beleg stehen.
+Sie ist keine steuerliche Beratung.
+
+--- PLATZHALTER ---
+
+⚠️ Seit 08.10.2026 deckt der Hinweis drei Regelmengen ab: Art. 226
+MwStSystRL, §14 UStG und §11 UStG 1994. Der frühere Wortlaut nannte nur §14 UStG und lautete:
+„Diese Prüfung stellt nur fest, ob die nach §14 UStG vorgeschriebenen Angaben im Beleg vorhanden
+sind. Sie ist keine steuerliche Beratung und trifft keine Aussage darüber, ob ein Sachverhalt
+zutreffend beurteilt wurde oder ob ein Vorsteuerabzug zusteht.“ Der Satz über dieser Zeile steht
+wörtlich als deutsche Übersetzung in den `.po` von `einvoice-inbound` und
+`einvoice-viewer-inbound-check`; der englische Quelltext steht in
+`libs/einvoice-core-js/src/inbound/mandatory.mjs` ( `MANDATORY_NOTICE` ).
+
+⚠️ Dieser Text ist ein Platzhalter und steht so in der Oberfläche, bis der endgültige Wortlaut
+feststeht.
+
+Warum ein Platzhalter und nicht nichts: die Aufgabe verlangt, dass der Hinweis unter JEDEM
+§14-Befund erscheint. Ein leerer Text hätte bedeutet, dass der Befund ohne Hinweis ausgeliefert
+wird — und genau das soll die Aufgabe verhindern. Ein erfundener Rechtstext wäre die schlechtere
+Alternative; dieser Text behauptet nichts, was er nicht belegen kann, und sagt genau das, was die
+Prüfung tatsächlich tut.
+
+Wer ihn ersetzt: diese Datei überschreiben, die Zeile „--- PLATZHALTER ---" und alles darunter
+entfernen. Der Prüfkern liest nur, was davor steht.

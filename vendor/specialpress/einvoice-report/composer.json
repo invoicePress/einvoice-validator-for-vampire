@@ -1,0 +1,15 @@
+{
+    "name": "specialpress/einvoice-report",
+    "description": "Reads a KoSIT validator report (native XML or its HTML rendering) into one report model - findings, validation steps, the flat document view, and the verdict. No BT/BG mapping, no explanation text - that stays in the eInvoice Validation Explainer. Package in the Validator/Explainer plugins, never its own plugin.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "version": "1.19.0",
+    "autoload": {
+        "psr-4": {
+            "SpecialPress\\EInvoice\\Report\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

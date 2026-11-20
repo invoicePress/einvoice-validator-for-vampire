@@ -1,0 +1,708 @@
+{
+    "metadaten": {
+        "version": "3",
+        "kennungInhalt": "urn:xoev-de:xrechnung:codeliste:untdid.4461",
+        "nameTechnisch": "UNTDID.4461",
+        "nameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "UNTDID 4461"
+                }
+            ],
+            "noCodeValue": "UNTDID 4461",
+            "defaultValue": "UNTDID 4461",
+            "first": "UNTDID 4461"
+        },
+        "nameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "UNTDID 4461 Payment means code"
+                }
+            ],
+            "noCodeValue": "UNTDID 4461 Payment means code",
+            "defaultValue": "UNTDID 4461 Payment means code",
+            "first": "UNTDID 4461 Payment means code"
+        },
+        "beschreibung": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Codeliste basiert auf der Codeliste 4461 (Payment means code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert Verwendungsweisen dieser Liste."
+                }
+            ],
+            "noCodeValue": "Die Codeliste basiert auf der Codeliste 4461 (Payment means code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert Verwendungsweisen dieser Liste.",
+            "defaultValue": "Die Codeliste basiert auf der Codeliste 4461 (Payment means code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert Verwendungsweisen dieser Liste.",
+            "first": "Die Codeliste basiert auf der Codeliste 4461 (Payment means code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert Verwendungsweisen dieser Liste."
+        },
+        "beschreibungVersion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft."
+                }
+            ],
+            "noCodeValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft.",
+            "defaultValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft.",
+            "first": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft."
+        },
+        "herausgebernameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "KoSIT"
+                }
+            ],
+            "noCodeValue": "KoSIT",
+            "defaultValue": "KoSIT",
+            "first": "KoSIT"
+        },
+        "herausgebernameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Koordinierungsstelle für IT-Standards"
+                }
+            ],
+            "noCodeValue": "Koordinierungsstelle für IT-Standards",
+            "defaultValue": "Koordinierungsstelle für IT-Standards",
+            "first": "Koordinierungsstelle für IT-Standards"
+        },
+        "aenderungZurVorversion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert."
+                }
+            ],
+            "noCodeValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert.",
+            "defaultValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert.",
+            "first": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert."
+        },
+        "handbuchVersion": "1.1",
+        "bezugsorte": [],
+        "gueltigAb": "2019-07-10T00:00:00Z",
+        "definiertNachCodelistenHandbuch": false,
+        "kennung": "urn:xoev-de:xrechnung:codeliste:untdid.4461_3",
+        "definiertNachXoevHandbuch": true
+    },
+    "spalten": [
+        {
+            "spaltennameLang": "Code",
+            "spaltennameTechnisch": "code",
+            "codeSpalte": true,
+            "empfohleneCodeSpalte": true,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Name",
+            "spaltennameTechnisch": "name",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Description",
+            "spaltennameTechnisch": "description",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        }
+    ],
+    "daten": [
+        [
+            "1",
+            "Zahlungsinstrument nicht definiert",
+            "Nicht definierte, rechtlich bindende Vereinbarung zwischen zwei oder mehr Parteien (die ein vertragliches Recht bzw. einen Anspruch auf Zahlung eines Geldbetrags ausdrückt)."
+        ],
+        [
+            "2",
+            "Gutschrift über automatisierte Clearingstelle (ACH)",
+            "Eine Gutschrifts-Transaktion, die über das System einer automatisierten Clearingstelle (Automated Clearing House) abgewickelt wird."
+        ],
+        [
+            "3",
+            "Lastschrift über automatisierte Clearingstelle (ACH)",
+            "Eine Lastschrift-Transaktion, die über das System einer automatisierten Clearingstelle (Automated Clearing House) abgewickelt wird."
+        ],
+        [
+            "4",
+            "Rückbuchung einer ACH-Lastschrift (Girokonto)",
+            "Eine Anforderung zur Rückbuchung einer ACH-Lastschrift-Transaktion auf einem Girokonto (demand deposit account)."
+        ],
+        [
+            "5",
+            "Rückbuchung einer ACH-Gutschrift (Girokonto)",
+            "Eine Anforderung zur Rückbuchung einer Gutschrifts-Transaktion auf einem Girokonto (demand deposit account)."
+        ],
+        [
+            "6",
+            "ACH-Gutschrift auf Girokonto",
+            "Eine über das ACH-System abgewickelte Gutschrifts-Transaktion auf ein Girokonto (demand deposit account)."
+        ],
+        [
+            "7",
+            "ACH-Lastschrift auf Girokonto",
+            "Eine über das ACH-System abgewickelte Lastschrift-Transaktion auf ein Girokonto (demand deposit account)."
+        ],
+        [
+            "8",
+            "Zahlung zurückhalten (Hold)",
+            "Zeigt an, dass die Bank die Zahlung zur Abholung durch den Begünstigten zurückhalten oder weitere Anweisungen abwarten soll."
+        ],
+        [
+            "9",
+            "Nationales oder regionales Clearing",
+            "Zeigt an, dass die Zahlung über das nationale oder regionale Clearing-Verfahren erfolgen soll."
+        ],
+        [
+            "10",
+            "Barzahlung",
+            "Zahlung mittels im Umlauf befindlicher Währung (einschließlich Banknoten und Münzen), einschließlich Einzahlungen auf Girokonten."
+        ],
+        [
+            "11",
+            "Rückbuchung einer ACH-Gutschrift (Sparkonto)",
+            "Eine Anforderung zur Rückbuchung einer ACH-Gutschrifts-Transaktion auf einem Sparkonto."
+        ],
+        [
+            "12",
+            "Rückbuchung einer ACH-Lastschrift (Sparkonto)",
+            "Eine Anforderung zur Rückbuchung einer ACH-Lastschrifts-Transaktion auf einem Sparkonto."
+        ],
+        [
+            "13",
+            "ACH-Gutschrift auf Sparkonto",
+            "Eine über das ACH-System abgewickelte Gutschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "14",
+            "ACH-Lastschrift auf Sparkonto",
+            "Eine über das ACH-System abgewickelte Lastschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "15",
+            "Bankinterne Gutschrift (Umbuchung)",
+            "Eine Gutschriftsbuchung zwischen zwei Konten derselben Bankfiliale. Synonym: hausinterne Gutschrift."
+        ],
+        [
+            "16",
+            "Bankinterne Lastschrift (Umbuchung)",
+            "Eine Lastschriftsbuchung zwischen zwei Konten derselben Bankfiliale. Synonym: hausinterne Lastschrift."
+        ],
+        [
+            "17",
+            "ACH-Gutschrift Girokonto, Cash Concentration/Disbursement (CCD)",
+            "Eine über das ACH-System im CCD-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "18",
+            "ACH-Lastschrift Girokonto, Cash Concentration/Disbursement (CCD)",
+            "Eine über das ACH-System im CCD-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "19",
+            "ACH-Gutschrift Girokonto, Corporate Trade Payment (CTP)",
+            "Eine über das ACH-System im CTP-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "20",
+            "Scheck",
+            "Zahlung mittels eines vorgedruckten Formulars, mit dem ein Kontoinhaber (Bank oder Bausparkasse) angewiesen wird, einen bestimmten Betrag an einen benannten Empfänger zu zahlen."
+        ],
+        [
+            "21",
+            "Bankscheck (Banker's Draft)",
+            "Ausstellung eines Bankschecks (Banker's Draft) zur Begleichung des Zahlungsbetrags."
+        ],
+        [
+            "22",
+            "Bestätigter Bankscheck",
+            "Scheck, den eine Bank auf sich selbst oder ihren Beauftragten zieht. Der Zahlungspflichtige erwirbt den Scheck gegen Bargeld bei einer Bank und übergibt ihn dem Gläubiger, der keine Nichteinlösung befürchten muss."
+        ],
+        [
+            "23",
+            "Bankscheck (ausgestellt von einem Kreditinstitut oder vergleichbaren Institut)",
+            "Zahlung mittels eines vorgedruckten, von einem Finanzinstitut ausgefüllten Formulars, mit dem ein Kontoinhaber (Bank oder Bausparkasse) angewiesen wird, einen bestimmten Betrag an einen benannten Empfänger zu zahlen."
+        ],
+        [
+            "24",
+            "Noch nicht akzeptierter Wechsel",
+            "Ein vom Gläubiger auf den Schuldner gezogener Wechsel, der vom Schuldner noch nicht akzeptiert wurde."
+        ],
+        [
+            "25",
+            "Bestätigter Scheck",
+            "Zahlung mittels eines vorgedruckten, mit dem Bestätigungsvermerk der zahlenden Bank versehenen Formulars, mit dem ein Kontoinhaber (Bank oder Bausparkasse) angewiesen wird, einen bestimmten Betrag an einen benannten Empfänger zu zahlen."
+        ],
+        [
+            "26",
+            "Örtlicher Scheck (Platzscheck)",
+            "Zeigt an, dass der Scheck am Ort des Empfängers ausgestellt bzw. eingelöst wird."
+        ],
+        [
+            "27",
+            "ACH-Lastschrift Girokonto, Corporate Trade Payment (CTP)",
+            "Eine über das ACH-System im CTP-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "28",
+            "ACH-Gutschrift Girokonto, Corporate Trade Exchange (CTX)",
+            "Eine über das ACH-System im CTX-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "29",
+            "ACH-Lastschrift Girokonto, Corporate Trade Exchange (CTX)",
+            "Eine über das ACH-System im CTX-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "30",
+            "Überweisung",
+            "Zahlung durch Übertragung von Geldmitteln (Gutschrift) von einem Konto auf ein anderes."
+        ],
+        [
+            "31",
+            "Lastschrift (Debit Transfer)",
+            "Zahlung durch Abbuchung (Lastschrift) von Geldmitteln von einem Konto auf ein anderes."
+        ],
+        [
+            "32",
+            "ACH-Gutschrift Girokonto, Cash Concentration/Disbursement Plus (CCD+)",
+            "Eine über das ACH-System im CCD+-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "33",
+            "ACH-Lastschrift Girokonto, Cash Concentration/Disbursement Plus (CCD+)",
+            "Eine über das ACH-System im CCD+-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Girokonto."
+        ],
+        [
+            "34",
+            "ACH Prearranged Payment and Deposit (PPD)",
+            "Eine Verbraucher-Gutschrifts-Transaktion, die über das ACH-System auf ein Giro- oder Sparkonto abgewickelt wird."
+        ],
+        [
+            "35",
+            "ACH-Gutschrift Sparkonto, Cash Concentration/Disbursement (CCD)",
+            "Eine über das ACH-System abgewickelte Gutschrifts-Transaktion auf ein Giro- oder Sparkonto."
+        ],
+        [
+            "36",
+            "ACH-Lastschrift Sparkonto, Cash Concentration/Disbursement (CCD)",
+            "Eine über das ACH-System im CCD-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "37",
+            "ACH-Gutschrift Sparkonto, Corporate Trade Payment (CTP)",
+            "Eine über das ACH-System im CTP-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "38",
+            "ACH-Lastschrift Sparkonto, Corporate Trade Payment (CTP)",
+            "Eine über das ACH-System im CTP-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "39",
+            "ACH-Gutschrift Sparkonto, Corporate Trade Exchange (CTX)",
+            "Eine über das ACH-System im CTX-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "40",
+            "ACH-Lastschrift Sparkonto, Corporate Trade Exchange (CTX)",
+            "Eine über das ACH-System im CTX-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "41",
+            "ACH-Gutschrift Sparkonto, Cash Concentration/Disbursement Plus (CCD+)",
+            "Eine über das ACH-System im CCD+-Zahlungsformat abgewickelte Gutschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "42",
+            "Zahlung auf ein Bankkonto",
+            "Zahlung im Rahmen eines von der Post betriebenen Verfahrens zur Begleichung von Forderungen."
+        ],
+        [
+            "43",
+            "ACH-Lastschrift Sparkonto, Cash Concentration/Disbursement Plus (CCD+)",
+            "Eine über das ACH-System im CCD+-Zahlungsformat abgewickelte Lastschrifts-Transaktion auf ein Sparkonto."
+        ],
+        [
+            "44",
+            "Akzeptierter Wechsel",
+            "Ein vom Gläubiger auf den Schuldner gezogener und vom Schuldner akzeptierter Wechsel."
+        ],
+        [
+            "45",
+            "Referenzierte Homebanking-Überweisung",
+            "Eine über Homebanking veranlasste, referenzierte Überweisung."
+        ],
+        [
+            "46",
+            "Zwischenbankliche Lastschrift",
+            "Eine im zwischenbanklichen Verfahren abgewickelte Lastschrift."
+        ],
+        [
+            "47",
+            "Homebanking-Lastschrift",
+            "Eine über Homebanking veranlasste Lastschrift."
+        ],
+        [
+            "48",
+            "Bankkarte",
+            "Zahlung mittels einer von einer Bank oder einem anderen Finanzinstitut ausgegebenen Karte."
+        ],
+        [
+            "49",
+            "Lastschrifteinzug",
+            "Der Betrag wird bzw. wurde direkt vom Bankkonto des Kunden abgebucht."
+        ],
+        [
+            "50",
+            "Zahlung per Postgiro",
+            "Ein Verfahren zur Übermittlung von Geldmitteln über das Postsystem anstelle des Bankensystems."
+        ],
+        [
+            "51",
+            "FR, Norme 6 97-Télérèglement CFONB (Comité Français d'Organisation et de Normalisation Bancaires) – Option A",
+            "Ein französisches Standardverfahren, das es einem Schuldner erlaubt, einen fälligen Betrag an einen Gläubiger zu zahlen. Der Gläubiger leitet den Vorgang an seine Bank weiter, die den Betrag vom Bankkonto des Schuldners einzieht."
+        ],
+        [
+            "52",
+            "Dringende kommerzielle Zahlung",
+            "Zahlungsauftrag, der eine garantierte Bearbeitung mit dem geeignetsten Mittel erfordert, damit die Ausführung zum gewünschten Termin erfolgt, sofern der Auftrag vor dem vereinbarten Annahmeschluss bei der beauftragten Bank eingeht."
+        ],
+        [
+            "53",
+            "Dringende Treasury-Zahlung",
+            "Zahlungsauftrag oder Überweisung, die mit dem geeignetsten Mittel so dringend wie möglich und vorrangig vor dringenden kommerziellen Zahlungen ausgeführt werden muss."
+        ],
+        [
+            "54",
+            "Kreditkarte",
+            "Zahlung mittels Kreditkarte."
+        ],
+        [
+            "55",
+            "Debitkarte",
+            "Zahlung mittels Debitkarte (z. B. EC-/Girocard)."
+        ],
+        [
+            "56",
+            "Bankgiro",
+            "Die Zahlung erfolgt bzw. ist per Bankgiro erfolgt."
+        ],
+        [
+            "57",
+            "Vereinbartes Verfahren (Standing Agreement)",
+            "Das Zahlungsmittel wurde bereits vorab zwischen Verkäufer und Käufer vereinbart und wird daher nicht erneut angegeben."
+        ],
+        [
+            "58",
+            "SEPA-Überweisung",
+            "Überweisung innerhalb des einheitlichen Euro-Zahlungsverkehrsraums (SEPA)."
+        ],
+        [
+            "59",
+            "SEPA-Lastschrift",
+            "Lastschrift innerhalb des einheitlichen Euro-Zahlungsverkehrsraums (SEPA)."
+        ],
+        [
+            "60",
+            "Eigenwechsel (Promissory Note)",
+            "Zahlung mittels eines von einer Person unterschriebenen, bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "61",
+            "Vom Schuldner unterzeichneter Eigenwechsel",
+            "Zahlung mittels eines vom Schuldner unterschriebenen, bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "62",
+            "Vom Schuldner unterzeichneter und von einer Bank avalierter Eigenwechsel",
+            "Zahlung mittels eines vom Schuldner unterschriebenen und von einer Bank avalierten (indossierten), bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "63",
+            "Vom Schuldner unterzeichneter und von einem Dritten avalierter Eigenwechsel",
+            "Zahlung mittels eines vom Schuldner unterschriebenen und von einem Dritten avalierten (indossierten), bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "64",
+            "Von einer Bank unterzeichneter Eigenwechsel",
+            "Zahlung mittels eines von einer Bank unterschriebenen, bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "65",
+            "Von einer Bank unterzeichneter und von einer weiteren Bank avalierter Eigenwechsel",
+            "Zahlung mittels eines von einer Bank unterschriebenen und von einer weiteren Bank avalierten (indossierten), bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "66",
+            "Von einem Dritten unterzeichneter Eigenwechsel",
+            "Zahlung mittels eines von einem Dritten unterschriebenen, bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "67",
+            "Von einem Dritten unterzeichneter und von einer Bank avalierter Eigenwechsel",
+            "Zahlung mittels eines von einem Dritten unterschriebenen und von einer Bank avalierten (indossierten), bedingungslosen schriftlichen Zahlungsversprechens gegenüber einer anderen Person, das die Verpflichtung enthält, auf Verlangen oder zu einem festgelegten bzw. bestimmbaren zukünftigen Zeitpunkt einen bestimmten Geldbetrag an Order oder Inhaber zu zahlen."
+        ],
+        [
+            "68",
+            "Online-Zahlungsdienst",
+            "Die Zahlung erfolgt bzw. ist über einen Online-Zahlungsdienst erfolgt."
+        ],
+        [
+            "69",
+            "Umbuchungsavis (Transfer Advice)",
+            "Übertragung eines Geldbetrags in den Büchern des kontoführenden Instituts. Dem Kontoinhaber wird eine Bestätigung (Avis) zugesandt."
+        ],
+        [
+            "70",
+            "Vom Gläubiger auf den Schuldner gezogener Wechsel",
+            "Ein vom Gläubiger auf den Schuldner gezogener Wechsel."
+        ],
+        [
+            "74",
+            "Vom Gläubiger auf eine Bank gezogener Wechsel",
+            "Ein vom Gläubiger auf eine Bank gezogener Wechsel."
+        ],
+        [
+            "75",
+            "Vom Gläubiger gezogener und von einer weiteren Bank avalierter Wechsel",
+            "Ein vom Gläubiger gezogener und von einer weiteren Bank avalierter (indossierter) Wechsel."
+        ],
+        [
+            "76",
+            "Vom Gläubiger auf eine Bank gezogener und von einem Dritten avalierter Wechsel",
+            "Ein vom Gläubiger auf eine Bank gezogener und von einem Dritten avalierter (indossierter) Wechsel."
+        ],
+        [
+            "77",
+            "Vom Gläubiger auf einen Dritten gezogener Wechsel",
+            "Ein vom Gläubiger auf einen Dritten gezogener Wechsel."
+        ],
+        [
+            "78",
+            "Vom Gläubiger auf einen Dritten gezogener, von einer Bank akzeptierter und avalierter Wechsel",
+            "Ein vom Gläubiger auf einen Dritten gezogener Wechsel, der von einer Bank akzeptiert und avaliert (indossiert) wurde."
+        ],
+        [
+            "91",
+            "Nicht übertragbarer Bankscheck",
+            "Ausstellung eines nicht indossierbaren Bankschecks."
+        ],
+        [
+            "92",
+            "Nicht übertragbarer örtlicher Scheck",
+            "Ausstellung eines nicht indossierbaren Schecks zur Begleichung des Zahlungsbetrags."
+        ],
+        [
+            "93",
+            "Referenz-Giro (Finnland)",
+            "Der Zahlungspflichtige weist seine Bank an, das Zahlungssystem „Referenz-Giro“ zu verwenden. Wird im finnischen nationalen Bankensystem verwendet."
+        ],
+        [
+            "94",
+            "Eil-Giro (Finnland)",
+            "Der Zahlungspflichtige weist seine Bank an, bei der Zahlungsübermittlung den Bankdienst „Eil-Giro“ zu verwenden. Wird im finnischen nationalen Bankensystem verwendet."
+        ],
+        [
+            "95",
+            "Freiformat-Giro (Finnland)",
+            "Der Zahlungspflichtige weist seine Bank an, bei der Zahlungsübermittlung den Bankdienst „Freiformat-Giro“ zu verwenden. Wird im finnischen nationalen Bankensystem verwendet."
+        ],
+        [
+            "96",
+            "Angefordertes Zahlungsverfahren wurde nicht verwendet",
+            "Zeigt an, dass das angeforderte Zahlungsverfahren nicht verwendet wurde oder nicht verwendet werden konnte."
+        ],
+        [
+            "97",
+            "Verrechnung zwischen Partnern",
+            "Beträge, die sich zwei Partner gegenseitig schulden und die miteinander verrechnet werden, um unnötige Zahlungen zu vermeiden."
+        ],
+        [
+            "ZZZ",
+            "Gegenseitig vereinbart",
+            "Ein innerhalb einer Codeliste vergebener Code, der vorübergehend und nach Vereinbarung zwischen den Handelspartnern verwendet wird, bis ein passender Code in die Codeliste aufgenommen werden kann."
+        ]
+    ],
+    "empfohleneCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "ZZZ"
+    ],
+    "codes": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "ZZZ"
+        ]
+    ]
+}

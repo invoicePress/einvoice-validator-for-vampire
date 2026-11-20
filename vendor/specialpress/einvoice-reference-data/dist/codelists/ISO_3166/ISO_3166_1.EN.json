@@ -1,0 +1,2667 @@
+{
+    "metadaten": {
+        "version": "9",
+        "kennungInhalt": "urn:xoev-de:kosit:codeliste:country-codes",
+        "nameTechnisch": "Country-Codes",
+        "nameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Country Codes"
+                }
+            ],
+            "noCodeValue": "Country Codes",
+            "defaultValue": "Country Codes",
+            "first": "Country Codes"
+        },
+        "nameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Country Codes"
+                }
+            ],
+            "noCodeValue": "Country Codes",
+            "defaultValue": "Country Codes",
+            "first": "Country Codes"
+        },
+        "beschreibung": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard \"Country codes\" der International Organization for Standardization (ISO). Die vorliegende Liste verwendet die \"officially assigned codes\" (Alpha-2 und Numerisch) der ISO-Liste sowie die \"user assigned codes\" für Kosovo (\"XK\") und Unbekannt (\"QU\"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol \"BIS Order only\" Spezifikation."
+                }
+            ],
+            "noCodeValue": "Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard \"Country codes\" der International Organization for Standardization (ISO). Die vorliegende Liste verwendet die \"officially assigned codes\" (Alpha-2 und Numerisch) der ISO-Liste sowie die \"user assigned codes\" für Kosovo (\"XK\") und Unbekannt (\"QU\"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol \"BIS Order only\" Spezifikation.",
+            "defaultValue": "Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard \"Country codes\" der International Organization for Standardization (ISO). Die vorliegende Liste verwendet die \"officially assigned codes\" (Alpha-2 und Numerisch) der ISO-Liste sowie die \"user assigned codes\" für Kosovo (\"XK\") und Unbekannt (\"QU\"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol \"BIS Order only\" Spezifikation.",
+            "first": "Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard \"Country codes\" der International Organization for Standardization (ISO). Die vorliegende Liste verwendet die \"officially assigned codes\" (Alpha-2 und Numerisch) der ISO-Liste sowie die \"user assigned codes\" für Kosovo (\"XK\") und Unbekannt (\"QU\"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol \"BIS Order only\" Spezifikation."
+        },
+        "beschreibungVersion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠"
+                }
+            ],
+            "noCodeValue": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠",
+            "defaultValue": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠",
+            "first": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠"
+        },
+        "herausgebernameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "KoSIT"
+                }
+            ],
+            "noCodeValue": "KoSIT",
+            "defaultValue": "KoSIT",
+            "first": "KoSIT"
+        },
+        "herausgebernameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Koordinierungsstelle für IT-Standards"
+                }
+            ],
+            "noCodeValue": "Koordinierungsstelle für IT-Standards",
+            "defaultValue": "Koordinierungsstelle für IT-Standards",
+            "first": "Koordinierungsstelle für IT-Standards"
+        },
+        "aenderungZurVorversion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Geänderte Einträge: - AI: DESTATIS-Daten aktualisiert. - AQ: Weicht von Eingabelisten ab (siehe Beschreibung). - AS: DESTATIS-Daten aktualisiert. - AW: DESTATIS-Daten aktualisiert. - AX: DESTATIS-Daten aktualisiert. - BL: DESTATIS-Daten aktualisiert. - BM: DESTATIS-Daten aktualisiert. - BQ: DESTATIS-Daten aktualisiert. - BV: DESTATIS-Daten aktualisiert. - CC: DESTATIS-Daten aktualisiert. - CK: aktualisiert. - CW: DESTATIS-Daten aktualisiert. - CX: DESTATIS-Daten aktualisiert. - EH: DESTATIS-Daten aktualisiert. - FK: DESTATIS-Daten aktualisiert. - FO: DESTATIS-Daten aktualisiert. - GF: DESTATIS-Daten aktualisiert. - GG: DESTATIS-Daten aktualisiert. - GI: DESTATIS-Daten aktualisiert. - GL: DESTATIS-Daten aktualisiert. - GP: DESTATIS-Daten aktualisiert. - GS: DESTATIS-Daten aktualisiert. - GU: DESTATIS-Daten aktualisiert. - HK: DESTATIS-Daten aktualisiert. - HM: DESTATIS-Daten aktualisiert. - IM: DESTATIS-Daten aktualisiert. - IO: DESTATIS-Daten aktualisiert. - IS: aktualisiert. - JE: DESTATIS-Daten aktualisiert. - KY: DESTATIS-Daten aktualisiert. - MF: DESTATIS-Daten aktualisiert. - MO: DESTATIS-Daten aktualisiert. - MP: DESTATIS-Daten aktualisiert. - MQ: DESTATIS-Daten aktualisiert. - MS: DESTATIS-Daten aktualisiert. - NC: DESTATIS-Daten aktualisiert. - NF: DESTATIS-Daten aktualisiert. - NL: aktualisiert. - NP: aktualisiert. - NU: aktualisiert. - PF: DESTATIS-Daten aktualisiert. - PM: DESTATIS-Daten aktualisiert. - PN: DESTATIS-Daten aktualisiert. - PR: DESTATIS-Daten aktualisiert. - PS: Weicht von Eingabelisten ab (siehe Beschreibung). - RE: DESTATIS-Daten aktualisiert. - SH: DESTATIS-Daten aktualisiert. - SJ: DESTATIS-Daten aktualisiert. - SX: DESTATIS-Daten aktualisiert. - TC: DESTATIS-Daten aktualisiert. - TF: Weicht von Eingabelisten ab (siehe Beschreibung). - TK: DESTATIS-Daten aktualisiert. - TW: DESTATIS-Daten aktualisiert. - UM: Weicht von Eingabelisten ab (siehe Beschreibung). - VG: DESTATIS-Daten aktualisiert. - VI: DESTATIS-Daten aktualisiert. - WF: DESTATIS-Daten aktualisiert. - YT: DESTATIS-Daten aktualisiert."
+                }
+            ],
+            "noCodeValue": "Geänderte Einträge: - AI: DESTATIS-Daten aktualisiert. - AQ: Weicht von Eingabelisten ab (siehe Beschreibung). - AS: DESTATIS-Daten aktualisiert. - AW: DESTATIS-Daten aktualisiert. - AX: DESTATIS-Daten aktualisiert. - BL: DESTATIS-Daten aktualisiert. - BM: DESTATIS-Daten aktualisiert. - BQ: DESTATIS-Daten aktualisiert. - BV: DESTATIS-Daten aktualisiert. - CC: DESTATIS-Daten aktualisiert. - CK: aktualisiert. - CW: DESTATIS-Daten aktualisiert. - CX: DESTATIS-Daten aktualisiert. - EH: DESTATIS-Daten aktualisiert. - FK: DESTATIS-Daten aktualisiert. - FO: DESTATIS-Daten aktualisiert. - GF: DESTATIS-Daten aktualisiert. - GG: DESTATIS-Daten aktualisiert. - GI: DESTATIS-Daten aktualisiert. - GL: DESTATIS-Daten aktualisiert. - GP: DESTATIS-Daten aktualisiert. - GS: DESTATIS-Daten aktualisiert. - GU: DESTATIS-Daten aktualisiert. - HK: DESTATIS-Daten aktualisiert. - HM: DESTATIS-Daten aktualisiert. - IM: DESTATIS-Daten aktualisiert. - IO: DESTATIS-Daten aktualisiert. - IS: aktualisiert. - JE: DESTATIS-Daten aktualisiert. - KY: DESTATIS-Daten aktualisiert. - MF: DESTATIS-Daten aktualisiert. - MO: DESTATIS-Daten aktualisiert. - MP: DESTATIS-Daten aktualisiert. - MQ: DESTATIS-Daten aktualisiert. - MS: DESTATIS-Daten aktualisiert. - NC: DESTATIS-Daten aktualisiert. - NF: DESTATIS-Daten aktualisiert. - NL: aktualisiert. - NP: aktualisiert. - NU: aktualisiert. - PF: DESTATIS-Daten aktualisiert. - PM: DESTATIS-Daten aktualisiert. - PN: DESTATIS-Daten aktualisiert. - PR: DESTATIS-Daten aktualisiert. - PS: Weicht von Eingabelisten ab (siehe Beschreibung). - RE: DESTATIS-Daten aktualisiert. - SH: DESTATIS-Daten aktualisiert. - SJ: DESTATIS-Daten aktualisiert. - SX: DESTATIS-Daten aktualisiert. - TC: DESTATIS-Daten aktualisiert. - TF: Weicht von Eingabelisten ab (siehe Beschreibung). - TK: DESTATIS-Daten aktualisiert. - TW: DESTATIS-Daten aktualisiert. - UM: Weicht von Eingabelisten ab (siehe Beschreibung). - VG: DESTATIS-Daten aktualisiert. - VI: DESTATIS-Daten aktualisiert. - WF: DESTATIS-Daten aktualisiert. - YT: DESTATIS-Daten aktualisiert.",
+            "defaultValue": "Geänderte Einträge: - AI: DESTATIS-Daten aktualisiert. - AQ: Weicht von Eingabelisten ab (siehe Beschreibung). - AS: DESTATIS-Daten aktualisiert. - AW: DESTATIS-Daten aktualisiert. - AX: DESTATIS-Daten aktualisiert. - BL: DESTATIS-Daten aktualisiert. - BM: DESTATIS-Daten aktualisiert. - BQ: DESTATIS-Daten aktualisiert. - BV: DESTATIS-Daten aktualisiert. - CC: DESTATIS-Daten aktualisiert. - CK: aktualisiert. - CW: DESTATIS-Daten aktualisiert. - CX: DESTATIS-Daten aktualisiert. - EH: DESTATIS-Daten aktualisiert. - FK: DESTATIS-Daten aktualisiert. - FO: DESTATIS-Daten aktualisiert. - GF: DESTATIS-Daten aktualisiert. - GG: DESTATIS-Daten aktualisiert. - GI: DESTATIS-Daten aktualisiert. - GL: DESTATIS-Daten aktualisiert. - GP: DESTATIS-Daten aktualisiert. - GS: DESTATIS-Daten aktualisiert. - GU: DESTATIS-Daten aktualisiert. - HK: DESTATIS-Daten aktualisiert. - HM: DESTATIS-Daten aktualisiert. - IM: DESTATIS-Daten aktualisiert. - IO: DESTATIS-Daten aktualisiert. - IS: aktualisiert. - JE: DESTATIS-Daten aktualisiert. - KY: DESTATIS-Daten aktualisiert. - MF: DESTATIS-Daten aktualisiert. - MO: DESTATIS-Daten aktualisiert. - MP: DESTATIS-Daten aktualisiert. - MQ: DESTATIS-Daten aktualisiert. - MS: DESTATIS-Daten aktualisiert. - NC: DESTATIS-Daten aktualisiert. - NF: DESTATIS-Daten aktualisiert. - NL: aktualisiert. - NP: aktualisiert. - NU: aktualisiert. - PF: DESTATIS-Daten aktualisiert. - PM: DESTATIS-Daten aktualisiert. - PN: DESTATIS-Daten aktualisiert. - PR: DESTATIS-Daten aktualisiert. - PS: Weicht von Eingabelisten ab (siehe Beschreibung). - RE: DESTATIS-Daten aktualisiert. - SH: DESTATIS-Daten aktualisiert. - SJ: DESTATIS-Daten aktualisiert. - SX: DESTATIS-Daten aktualisiert. - TC: DESTATIS-Daten aktualisiert. - TF: Weicht von Eingabelisten ab (siehe Beschreibung). - TK: DESTATIS-Daten aktualisiert. - TW: DESTATIS-Daten aktualisiert. - UM: Weicht von Eingabelisten ab (siehe Beschreibung). - VG: DESTATIS-Daten aktualisiert. - VI: DESTATIS-Daten aktualisiert. - WF: DESTATIS-Daten aktualisiert. - YT: DESTATIS-Daten aktualisiert.",
+            "first": "Geänderte Einträge: - AI: DESTATIS-Daten aktualisiert. - AQ: Weicht von Eingabelisten ab (siehe Beschreibung). - AS: DESTATIS-Daten aktualisiert. - AW: DESTATIS-Daten aktualisiert. - AX: DESTATIS-Daten aktualisiert. - BL: DESTATIS-Daten aktualisiert. - BM: DESTATIS-Daten aktualisiert. - BQ: DESTATIS-Daten aktualisiert. - BV: DESTATIS-Daten aktualisiert. - CC: DESTATIS-Daten aktualisiert. - CK: aktualisiert. - CW: DESTATIS-Daten aktualisiert. - CX: DESTATIS-Daten aktualisiert. - EH: DESTATIS-Daten aktualisiert. - FK: DESTATIS-Daten aktualisiert. - FO: DESTATIS-Daten aktualisiert. - GF: DESTATIS-Daten aktualisiert. - GG: DESTATIS-Daten aktualisiert. - GI: DESTATIS-Daten aktualisiert. - GL: DESTATIS-Daten aktualisiert. - GP: DESTATIS-Daten aktualisiert. - GS: DESTATIS-Daten aktualisiert. - GU: DESTATIS-Daten aktualisiert. - HK: DESTATIS-Daten aktualisiert. - HM: DESTATIS-Daten aktualisiert. - IM: DESTATIS-Daten aktualisiert. - IO: DESTATIS-Daten aktualisiert. - IS: aktualisiert. - JE: DESTATIS-Daten aktualisiert. - KY: DESTATIS-Daten aktualisiert. - MF: DESTATIS-Daten aktualisiert. - MO: DESTATIS-Daten aktualisiert. - MP: DESTATIS-Daten aktualisiert. - MQ: DESTATIS-Daten aktualisiert. - MS: DESTATIS-Daten aktualisiert. - NC: DESTATIS-Daten aktualisiert. - NF: DESTATIS-Daten aktualisiert. - NL: aktualisiert. - NP: aktualisiert. - NU: aktualisiert. - PF: DESTATIS-Daten aktualisiert. - PM: DESTATIS-Daten aktualisiert. - PN: DESTATIS-Daten aktualisiert. - PR: DESTATIS-Daten aktualisiert. - PS: Weicht von Eingabelisten ab (siehe Beschreibung). - RE: DESTATIS-Daten aktualisiert. - SH: DESTATIS-Daten aktualisiert. - SJ: DESTATIS-Daten aktualisiert. - SX: DESTATIS-Daten aktualisiert. - TC: DESTATIS-Daten aktualisiert. - TF: Weicht von Eingabelisten ab (siehe Beschreibung). - TK: DESTATIS-Daten aktualisiert. - TW: DESTATIS-Daten aktualisiert. - UM: Weicht von Eingabelisten ab (siehe Beschreibung). - VG: DESTATIS-Daten aktualisiert. - VI: DESTATIS-Daten aktualisiert. - WF: DESTATIS-Daten aktualisiert. - YT: DESTATIS-Daten aktualisiert."
+        },
+        "handbuchVersion": "1.3",
+        "bezugsorte": [
+            "https://www.destatis.de/DE/Methoden/Klassifikationen/Staat-Gebietsystematik/staatsangehoerigkeit-gebietsschluessel.html",
+            "https://www.iso.org/obp/ui/#search"
+        ],
+        "gueltigAb": null,
+        "definiertNachCodelistenHandbuch": false,
+        "kennung": "urn:xoev-de:kosit:codeliste:country-codes_9",
+        "definiertNachXoevHandbuch": true
+    },
+    "spalten": [
+        {
+            "spaltennameLang": "ISO Alpha-2 code",
+            "spaltennameTechnisch": "ISOAlpha2code",
+            "codeSpalte": true,
+            "empfohleneCodeSpalte": true,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "DESTATIS Code Staat",
+            "spaltennameTechnisch": "DESTATIS-Code-Staat",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Short Name",
+            "spaltennameTechnisch": "shortName",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Full Name",
+            "spaltennameTechnisch": "fullName",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "ISO Numeric",
+            "spaltennameTechnisch": "ISONumeric",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Status",
+            "spaltennameTechnisch": "status",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        }
+    ],
+    "daten": [
+        [
+            "AD",
+            "123",
+            "Andorra",
+            "das Fürstentum Andorra",
+            "020",
+            null
+        ],
+        [
+            "AE",
+            "469",
+            "Vereinigte Arabische Emirate",
+            "die Vereinigten Arabischen Emirate (Abu Dhabi, Adschman, Dubai, Fudschaira, Ras al Chaima, Schardscha, Umm al Kaiwain)",
+            "784",
+            null
+        ],
+        [
+            "AF",
+            "423",
+            "Afghanistan",
+            "die Islamische Republik Afghanistan",
+            "004",
+            null
+        ],
+        [
+            "AG",
+            "320",
+            "Antigua und Barbuda",
+            "Antigua und Barbuda",
+            "028",
+            null
+        ],
+        [
+            "AI",
+            "168",
+            "Anguilla",
+            "Anguilla",
+            "660",
+            null
+        ],
+        [
+            "AL",
+            "121",
+            "Albanien",
+            "die Republik Albanien",
+            "008",
+            null
+        ],
+        [
+            "AM",
+            "422",
+            "Armenien",
+            "die Republik Armenien",
+            "051",
+            null
+        ],
+        [
+            "AO",
+            "223",
+            "Angola",
+            "die Republik Angola",
+            "024",
+            null
+        ],
+        [
+            "AQ",
+            null,
+            "Antarktis",
+            "",
+            "010",
+            "Wurde aus urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsgebiete_2024-08-01 entfernt. Code bei ISO weiter vorhanden. Überestzungs wird erhalten."
+        ],
+        [
+            "AR",
+            "323",
+            "Argentinien",
+            "die Argentinische Republik",
+            "032",
+            null
+        ],
+        [
+            "AS",
+            "368",
+            "Amerikanisch-Samoa",
+            "das Territorium Amerikanisch-Samoa",
+            "016",
+            null
+        ],
+        [
+            "AT",
+            "151",
+            "Österreich",
+            "die Republik Österreich",
+            "040",
+            null
+        ],
+        [
+            "AU",
+            "523",
+            "Australien",
+            "Australien",
+            "036",
+            null
+        ],
+        [
+            "AW",
+            "148",
+            "Aruba",
+            "Aruba",
+            "533",
+            null
+        ],
+        [
+            "AX",
+            "128",
+            "Ålandinseln",
+            "die Ålandinseln",
+            "248",
+            null
+        ],
+        [
+            "AZ",
+            "425",
+            "Aserbaidschan",
+            "die Republik Aserbaidschan",
+            "031",
+            null
+        ],
+        [
+            "BA",
+            "122",
+            "Bosnien und Herzegowina",
+            "Bosnien und Herzegowina",
+            "070",
+            null
+        ],
+        [
+            "BB",
+            "322",
+            "Barbados",
+            "Barbados",
+            "052",
+            null
+        ],
+        [
+            "BD",
+            "460",
+            "Bangladesch",
+            "die Volksrepublik Bangladesch",
+            "050",
+            null
+        ],
+        [
+            "BE",
+            "124",
+            "Belgien",
+            "das Königreich Belgien",
+            "056",
+            null
+        ],
+        [
+            "BF",
+            "258",
+            "Burkina Faso",
+            "Burkina Faso",
+            "854",
+            null
+        ],
+        [
+            "BG",
+            "125",
+            "Bulgarien",
+            "die Republik Bulgarien",
+            "100",
+            null
+        ],
+        [
+            "BH",
+            "424",
+            "Bahrain",
+            "das Königreich Bahrain",
+            "048",
+            null
+        ],
+        [
+            "BI",
+            "291",
+            "Burundi",
+            "die Republik Burundi",
+            "108",
+            null
+        ],
+        [
+            "BJ",
+            "229",
+            "Benin",
+            "die Republik Benin",
+            "204",
+            null
+        ],
+        [
+            "BL",
+            "129",
+            "St. Barthélemy",
+            "die Gebietskörperschaft St. Barthélemy",
+            "652",
+            null
+        ],
+        [
+            "BM",
+            "168",
+            "Bermuda",
+            "Bermuda / die Bermudas",
+            "060",
+            null
+        ],
+        [
+            "BN",
+            "429",
+            "Brunei Darussalam",
+            "Brunei Darussalam",
+            "096",
+            null
+        ],
+        [
+            "BO",
+            "326",
+            "Plurinationaler Staat Bolivien",
+            "der Plurinationale Staat Bolivien",
+            "068",
+            null
+        ],
+        [
+            "BQ",
+            "148",
+            "Bonaire, Saba, St. Eustatius",
+            "Bonaire, Saba, St. Eustatius",
+            "535",
+            null
+        ],
+        [
+            "BR",
+            "327",
+            "Brasilien",
+            "die Föderative Republik Brasilien",
+            "076",
+            null
+        ],
+        [
+            "BS",
+            "324",
+            "Bahamas",
+            "das Commonwealth der Bahamas",
+            "044",
+            null
+        ],
+        [
+            "BT",
+            "426",
+            "Bhutan",
+            "das Königreich Bhutan",
+            "064",
+            null
+        ],
+        [
+            "BV",
+            "149",
+            "Bouvetinsel",
+            "die Bouvetinsel",
+            "074",
+            null
+        ],
+        [
+            "BW",
+            "227",
+            "Botsuana",
+            "die Republik Botsuana",
+            "072",
+            null
+        ],
+        [
+            "BY",
+            "169",
+            "Belarus",
+            "die Republik Belarus",
+            "112",
+            null
+        ],
+        [
+            "BZ",
+            "330",
+            "Belize",
+            "Belize",
+            "084",
+            null
+        ],
+        [
+            "CA",
+            "348",
+            "Kanada",
+            "Kanada",
+            "124",
+            null
+        ],
+        [
+            "CC",
+            "523",
+            "Kokosinseln",
+            "das Territorium Kokosinseln",
+            "166",
+            null
+        ],
+        [
+            "CD",
+            "246",
+            "Demokratische Republik Kongo",
+            "die Demokratische Republik Kongo",
+            "180",
+            null
+        ],
+        [
+            "CF",
+            "289",
+            "Zentralafrikanische Republik",
+            "die Zentralafrikanische Republik",
+            "140",
+            null
+        ],
+        [
+            "CG",
+            "245",
+            "Kongo",
+            "die Republik Kongo",
+            "178",
+            null
+        ],
+        [
+            "CH",
+            "158",
+            "Schweiz",
+            "die Schweizerische Eidgenossenschaft",
+            "756",
+            null
+        ],
+        [
+            "CI",
+            "231",
+            "Côte d’Ivoire",
+            "die Republik Côte d’Ivoire",
+            "384",
+            null
+        ],
+        [
+            "CK",
+            "527",
+            "Cookinseln",
+            "die Cookinseln",
+            "184",
+            null
+        ],
+        [
+            "CL",
+            "332",
+            "Chile",
+            "die Republik Chile",
+            "152",
+            null
+        ],
+        [
+            "CM",
+            "262",
+            "Kamerun",
+            "die Republik Kamerun",
+            "120",
+            null
+        ],
+        [
+            "CN",
+            "479",
+            "China",
+            "die Volksrepublik China",
+            "156",
+            null
+        ],
+        [
+            "CO",
+            "349",
+            "Kolumbien",
+            "die Republik Kolumbien",
+            "170",
+            null
+        ],
+        [
+            "CR",
+            "334",
+            "Costa Rica",
+            "die Republik Costa Rica",
+            "188",
+            null
+        ],
+        [
+            "CU",
+            "351",
+            "Kuba",
+            "die Republik Kuba",
+            "192",
+            null
+        ],
+        [
+            "CV",
+            "242",
+            "Cabo Verde",
+            "die Republik Cabo Verde",
+            "132",
+            null
+        ],
+        [
+            "CW",
+            "148",
+            "Curaçao",
+            "Curaçao",
+            "531",
+            null
+        ],
+        [
+            "CX",
+            "523",
+            "Weihnachtsinsel",
+            "das Territorium Weihnachtsinsel",
+            "162",
+            null
+        ],
+        [
+            "CY",
+            "181",
+            "Zypern",
+            "die Republik Zypern",
+            "196",
+            null
+        ],
+        [
+            "CZ",
+            "164",
+            "Tschechien",
+            "die Tschechische Republik",
+            "203",
+            null
+        ],
+        [
+            "DE",
+            "000",
+            "Deutschland",
+            "die Bundesrepublik Deutschland",
+            "276",
+            null
+        ],
+        [
+            "DJ",
+            "230",
+            "Dschibuti",
+            "die Republik Dschibuti",
+            "262",
+            null
+        ],
+        [
+            "DK",
+            "126",
+            "Dänemark",
+            "das Königreich Dänemark",
+            "208",
+            null
+        ],
+        [
+            "DM",
+            "333",
+            "Dominica",
+            "das Commonwealth Dominica",
+            "212",
+            null
+        ],
+        [
+            "DO",
+            "335",
+            "Dominikanische Republik",
+            "die Dominikanische Republik",
+            "214",
+            null
+        ],
+        [
+            "DZ",
+            "221",
+            "Algerien",
+            "die Demokratische Volksrepublik Algerien",
+            "012",
+            null
+        ],
+        [
+            "EC",
+            "336",
+            "Ecuador",
+            "die Republik Ecuador",
+            "218",
+            null
+        ],
+        [
+            "EE",
+            "127",
+            "Estland",
+            "die Republik Estland",
+            "233",
+            null
+        ],
+        [
+            "EG",
+            "287",
+            "Ägypten",
+            "die Arabische Republik Ägypten",
+            "818",
+            null
+        ],
+        [
+            "EH",
+            "252",
+            "Westsahara",
+            "Westsahara",
+            "732",
+            null
+        ],
+        [
+            "ER",
+            "224",
+            "Eritrea",
+            "der Staat Eritrea",
+            "232",
+            null
+        ],
+        [
+            "ES",
+            "161",
+            "Spanien",
+            "das Königreich Spanien",
+            "724",
+            null
+        ],
+        [
+            "ET",
+            "225",
+            "Äthiopien",
+            "die Demokratische Bundesrepublik Äthiopien",
+            "231",
+            null
+        ],
+        [
+            "FI",
+            "128",
+            "Finnland",
+            "die Republik Finnland",
+            "246",
+            null
+        ],
+        [
+            "FJ",
+            "526",
+            "Fidschi",
+            "die Republik Fidschi",
+            "242",
+            null
+        ],
+        [
+            "FK",
+            "168",
+            "Falklandinseln (Malwinen)",
+            "die Falklandinseln (Malwinen)",
+            "238",
+            null
+        ],
+        [
+            "FM",
+            "545",
+            "Föderierte Staaten von Mikronesien",
+            "die Föderierten Staaten von Mikronesien",
+            "583",
+            null
+        ],
+        [
+            "FO",
+            "126",
+            "Färöer",
+            "die Färöer",
+            "234",
+            null
+        ],
+        [
+            "FR",
+            "129",
+            "Frankreich",
+            "die Französische Republik",
+            "250",
+            null
+        ],
+        [
+            "GA",
+            "236",
+            "Gabun",
+            "die Gabunische Republik",
+            "266",
+            null
+        ],
+        [
+            "GB",
+            "168",
+            "Vereinigtes Königreich",
+            "das Vereinigte Königreich Großbritannien und Nordirland",
+            "826",
+            null
+        ],
+        [
+            "GD",
+            "340",
+            "Grenada",
+            "Grenada",
+            "308",
+            null
+        ],
+        [
+            "GE",
+            "430",
+            "Georgien",
+            "Georgien",
+            "268",
+            null
+        ],
+        [
+            "GF",
+            "129",
+            "Französisch-Guayana",
+            "das Departement Guayana",
+            "254",
+            null
+        ],
+        [
+            "GG",
+            "168",
+            "Guernsey",
+            "die Vogtei Guernsey",
+            "831",
+            null
+        ],
+        [
+            "GH",
+            "238",
+            "Ghana",
+            "die Republik Ghana",
+            "288",
+            null
+        ],
+        [
+            "GI",
+            "168",
+            "Gibraltar",
+            "die Kolonie Gibraltar",
+            "292",
+            null
+        ],
+        [
+            "GL",
+            "126",
+            "Grönland",
+            "Grönland",
+            "304",
+            null
+        ],
+        [
+            "GM",
+            "237",
+            "Gambia",
+            "die Republik Gambia",
+            "270",
+            null
+        ],
+        [
+            "GN",
+            "261",
+            "Guinea",
+            "die Republik Guinea",
+            "324",
+            null
+        ],
+        [
+            "GP",
+            "129",
+            "Guadeloupe",
+            "das Departement Guadeloupe",
+            "312",
+            null
+        ],
+        [
+            "GQ",
+            "274",
+            "Äquatorialguinea",
+            "die Republik Äquatorialguinea",
+            "226",
+            null
+        ],
+        [
+            "GR",
+            "134",
+            "Griechenland",
+            "die Hellenische Republik",
+            "300",
+            null
+        ],
+        [
+            "GS",
+            "168",
+            "Südgeorgien und die südlichen Sandwichinseln",
+            "Südgeorgien und die südlichen Sandwichinseln",
+            "239",
+            null
+        ],
+        [
+            "GT",
+            "345",
+            "Guatemala",
+            "die Republik Guatemala",
+            "320",
+            null
+        ],
+        [
+            "GU",
+            "368",
+            "Guam",
+            "das Territorium Guam",
+            "316",
+            null
+        ],
+        [
+            "GW",
+            "259",
+            "Guinea-Bissau",
+            "die Republik Guinea-Bissau",
+            "624",
+            null
+        ],
+        [
+            "GY",
+            "328",
+            "Guyana",
+            "die Kooperative Republik Guyana",
+            "328",
+            null
+        ],
+        [
+            "HK",
+            "479",
+            "Hongkong",
+            "die Sonderverwaltungsregion Hongkong",
+            "344",
+            null
+        ],
+        [
+            "HM",
+            "523",
+            "Heard und McDonaldinseln",
+            "das Territorium Heard und McDonaldinseln",
+            "334",
+            null
+        ],
+        [
+            "HN",
+            "347",
+            "Honduras",
+            "die Republik Honduras",
+            "340",
+            null
+        ],
+        [
+            "HR",
+            "130",
+            "Kroatien",
+            "die Republik Kroatien",
+            "191",
+            null
+        ],
+        [
+            "HT",
+            "346",
+            "Haiti",
+            "die Republik Haiti",
+            "332",
+            null
+        ],
+        [
+            "HU",
+            "165",
+            "Ungarn",
+            "Ungarn",
+            "348",
+            null
+        ],
+        [
+            "ID",
+            "437",
+            "Indonesien",
+            "die Republik Indonesien",
+            "360",
+            null
+        ],
+        [
+            "IE",
+            "135",
+            "Irland",
+            "Irland",
+            "372",
+            null
+        ],
+        [
+            "IL",
+            "441",
+            "Israel",
+            "der Staat Israel",
+            "376",
+            null
+        ],
+        [
+            "IM",
+            "168",
+            "Insel Man",
+            "die Insel Man",
+            "833",
+            null
+        ],
+        [
+            "IN",
+            "436",
+            "Indien",
+            "die Republik Indien",
+            "356",
+            null
+        ],
+        [
+            "IO",
+            "168",
+            "Britisches Territorium im Indischen Ozean",
+            "das Britische Territorium im Indischen Ozean",
+            "086",
+            null
+        ],
+        [
+            "IQ",
+            "438",
+            "Irak",
+            "die Republik Irak",
+            "368",
+            null
+        ],
+        [
+            "IR",
+            "439",
+            "Islamische Republik Iran",
+            "die Islamische Republik Iran",
+            "364",
+            null
+        ],
+        [
+            "IS",
+            "136",
+            "Island",
+            "Island",
+            "352",
+            null
+        ],
+        [
+            "IT",
+            "137",
+            "Italien",
+            "die Italienische Republik",
+            "380",
+            null
+        ],
+        [
+            "JE",
+            "168",
+            "Jersey",
+            "die Vogtei Jersey",
+            "832",
+            null
+        ],
+        [
+            "JM",
+            "355",
+            "Jamaika",
+            "Jamaika",
+            "388",
+            null
+        ],
+        [
+            "JO",
+            "445",
+            "Jordanien",
+            "das Haschemitische Königreich Jordanien",
+            "400",
+            null
+        ],
+        [
+            "JP",
+            "442",
+            "Japan",
+            "Japan",
+            "392",
+            null
+        ],
+        [
+            "KE",
+            "243",
+            "Kenia",
+            "die Republik Kenia",
+            "404",
+            null
+        ],
+        [
+            "KG",
+            "450",
+            "Kirgisistan",
+            "die Kirgisische Republik",
+            "417",
+            null
+        ],
+        [
+            "KH",
+            "446",
+            "Kambodscha",
+            "das Königreich Kambodscha",
+            "116",
+            null
+        ],
+        [
+            "KI",
+            "530",
+            "Kiribati",
+            "die Republik Kiribati",
+            "296",
+            null
+        ],
+        [
+            "KM",
+            "244",
+            "Komoren",
+            "die Union der Komoren",
+            "174",
+            null
+        ],
+        [
+            "KN",
+            "370",
+            "St. Kitts und Nevis",
+            "die Föderation St. Kitts und Nevis",
+            "659",
+            null
+        ],
+        [
+            "KP",
+            "434",
+            "Demokratische Volksrepublik Korea",
+            "die Demokratische Volksrepublik Korea",
+            "408",
+            null
+        ],
+        [
+            "KR",
+            "467",
+            "Republik Korea",
+            "die Republik Korea",
+            "410",
+            null
+        ],
+        [
+            "KW",
+            "448",
+            "Kuwait",
+            "der Staat Kuwait",
+            "414",
+            null
+        ],
+        [
+            "KY",
+            "168",
+            "Kaimaninseln",
+            "die Kaimaninseln",
+            "136",
+            null
+        ],
+        [
+            "KZ",
+            "444",
+            "Kasachstan",
+            "die Republik Kasachstan",
+            "398",
+            null
+        ],
+        [
+            "LA",
+            "449",
+            "Demokratische Volksrepublik Laos",
+            "die Demokratische Volksrepublik Laos",
+            "418",
+            null
+        ],
+        [
+            "LB",
+            "451",
+            "Libanon",
+            "die Libanesische Republik",
+            "422",
+            null
+        ],
+        [
+            "LC",
+            "366",
+            "St. Lucia",
+            "St. Lucia",
+            "662",
+            null
+        ],
+        [
+            "LI",
+            "141",
+            "Liechtenstein",
+            "das Fürstentum Liechtenstein",
+            "438",
+            null
+        ],
+        [
+            "LK",
+            "431",
+            "Sri Lanka",
+            "die Demokratische Sozialistische Republik Sri Lanka",
+            "144",
+            null
+        ],
+        [
+            "LR",
+            "247",
+            "Liberia",
+            "die Republik Liberia",
+            "430",
+            null
+        ],
+        [
+            "LS",
+            "226",
+            "Lesotho",
+            "das Königreich Lesotho",
+            "426",
+            null
+        ],
+        [
+            "LT",
+            "142",
+            "Litauen",
+            "die Republik Litauen",
+            "440",
+            null
+        ],
+        [
+            "LU",
+            "143",
+            "Luxemburg",
+            "das Großherzogtum Luxemburg",
+            "442",
+            null
+        ],
+        [
+            "LV",
+            "139",
+            "Lettland",
+            "die Republik Lettland",
+            "428",
+            null
+        ],
+        [
+            "LY",
+            "248",
+            "Libyen",
+            "der Staat Libyen",
+            "434",
+            null
+        ],
+        [
+            "MA",
+            "252",
+            "Marokko",
+            "das Königreich Marokko",
+            "504",
+            null
+        ],
+        [
+            "MC",
+            "147",
+            "Monaco",
+            "das Fürstentum Monaco",
+            "492",
+            null
+        ],
+        [
+            "MD",
+            "146",
+            "Republik Moldau",
+            "die Republik Moldau",
+            "498",
+            null
+        ],
+        [
+            "ME",
+            "140",
+            "Montenegro",
+            "Montenegro",
+            "499",
+            null
+        ],
+        [
+            "MF",
+            "129",
+            "St. Martin",
+            "die Gebietskörperschaft St. Martin",
+            "663",
+            null
+        ],
+        [
+            "MG",
+            "249",
+            "Madagaskar",
+            "die Republik Madagaskar",
+            "450",
+            null
+        ],
+        [
+            "MH",
+            "544",
+            "Marshallinseln",
+            "die Republik Marshallinseln",
+            "584",
+            null
+        ],
+        [
+            "MK",
+            "144",
+            "Nordmazedonien",
+            "die Republik Nordmazedonien",
+            "807",
+            null
+        ],
+        [
+            "ML",
+            "251",
+            "Mali",
+            "die Republik Mali",
+            "466",
+            null
+        ],
+        [
+            "MM",
+            "427",
+            "Myanmar",
+            "die Republik der Union Myanmar",
+            "104",
+            null
+        ],
+        [
+            "MN",
+            "457",
+            "Mongolei",
+            "die Mongolei",
+            "496",
+            null
+        ],
+        [
+            "MO",
+            "479",
+            "Macau",
+            "die Sonderverwaltungsregion Macau",
+            "446",
+            null
+        ],
+        [
+            "MP",
+            "368",
+            "Nördliche Marianen",
+            "das Commonwealth der Nördlichen Marianen",
+            "580",
+            null
+        ],
+        [
+            "MQ",
+            "129",
+            "Martinique",
+            "das Departement Martinique",
+            "474",
+            null
+        ],
+        [
+            "MR",
+            "239",
+            "Mauretanien",
+            "die Islamische Republik Mauretanien",
+            "478",
+            null
+        ],
+        [
+            "MS",
+            "168",
+            "Montserrat",
+            "Montserrat",
+            "500",
+            null
+        ],
+        [
+            "MT",
+            "145",
+            "Malta",
+            "die Republik Malta",
+            "470",
+            null
+        ],
+        [
+            "MU",
+            "253",
+            "Mauritius",
+            "die Republik Mauritius",
+            "480",
+            null
+        ],
+        [
+            "MV",
+            "454",
+            "Malediven",
+            "die Republik Malediven",
+            "462",
+            null
+        ],
+        [
+            "MW",
+            "256",
+            "Malawi",
+            "die Republik Malawi",
+            "454",
+            null
+        ],
+        [
+            "MX",
+            "353",
+            "Mexiko",
+            "die Vereinigten Mexikanischen Staaten",
+            "484",
+            null
+        ],
+        [
+            "MY",
+            "482",
+            "Malaysia",
+            "Malaysia",
+            "458",
+            null
+        ],
+        [
+            "MZ",
+            "254",
+            "Mosambik",
+            "die Republik Mosambik",
+            "508",
+            null
+        ],
+        [
+            "NA",
+            "267",
+            "Namibia",
+            "die Republik Namibia",
+            "516",
+            null
+        ],
+        [
+            "NC",
+            "129",
+            "Neukaledonien",
+            "Neukaledonien",
+            "540",
+            null
+        ],
+        [
+            "NE",
+            "255",
+            "Niger",
+            "die Republik Niger",
+            "562",
+            null
+        ],
+        [
+            "NF",
+            "523",
+            "Norfolkinsel",
+            "das Territorium Norfolkinsel",
+            "574",
+            null
+        ],
+        [
+            "NG",
+            "232",
+            "Nigeria",
+            "die Bundesrepublik Nigeria",
+            "566",
+            null
+        ],
+        [
+            "NI",
+            "354",
+            "Nicaragua",
+            "die Republik Nicaragua",
+            "558",
+            null
+        ],
+        [
+            "NL",
+            "148",
+            "Königreich der Niederlande",
+            "das Königreich der Niederlande",
+            "528",
+            null
+        ],
+        [
+            "NO",
+            "149",
+            "Norwegen",
+            "das Königreich Norwegen",
+            "578",
+            null
+        ],
+        [
+            "NP",
+            "458",
+            "Nepal",
+            "Nepal",
+            "524",
+            null
+        ],
+        [
+            "NR",
+            "531",
+            "Nauru",
+            "die Republik Nauru",
+            "520",
+            null
+        ],
+        [
+            "NU",
+            "533",
+            "Niue",
+            "Niue",
+            "570",
+            null
+        ],
+        [
+            "NZ",
+            "536",
+            "Neuseeland",
+            "Neuseeland",
+            "554",
+            null
+        ],
+        [
+            "OM",
+            "456",
+            "Oman",
+            "das Sultanat Oman",
+            "512",
+            null
+        ],
+        [
+            "PA",
+            "357",
+            "Panama",
+            "die Republik Panama",
+            "591",
+            null
+        ],
+        [
+            "PE",
+            "361",
+            "Peru",
+            "die Republik Peru",
+            "604",
+            null
+        ],
+        [
+            "PF",
+            "129",
+            "Französisch-Polynesien",
+            "Französisch-Polynesien",
+            "258",
+            null
+        ],
+        [
+            "PG",
+            "538",
+            "Papua-Neuguinea",
+            "der Unabhängige Staat Papua-Neuguinea",
+            "598",
+            null
+        ],
+        [
+            "PH",
+            "462",
+            "Philippinen",
+            "die Republik der Philippinen",
+            "608",
+            null
+        ],
+        [
+            "PK",
+            "461",
+            "Pakistan",
+            "die Islamische Republik Pakistan",
+            "586",
+            null
+        ],
+        [
+            "PL",
+            "152",
+            "Polen",
+            "die Republik Polen",
+            "616",
+            null
+        ],
+        [
+            "PM",
+            "129",
+            "St. Pierre und Miquelon",
+            "die Gebietskörperschaft St. Pierre und Miquelon",
+            "666",
+            null
+        ],
+        [
+            "PN",
+            "168",
+            "Pitcairninseln",
+            "die Pitcairninseln",
+            "612",
+            null
+        ],
+        [
+            "PR",
+            "368",
+            "Puerto Rico",
+            "der Freistaat Puerto Rico",
+            "630",
+            null
+        ],
+        [
+            "PS",
+            null,
+            "Palästinensische Gebiete",
+            "Palestine, State of",
+            "275",
+            "In der internationalen Norm ISO 3166 wird den Länderzeichen PS und PSE der Ländername „State of Palestine“ bzw. „État de Palestine“ (auf Deutsch „Staat Palästina“) zugeordnet. Die Bundesrepublik Deutschland erkennt die Palästinensischen Gebiete nicht als Staat an."
+        ],
+        [
+            "PT",
+            "153",
+            "Portugal",
+            "die Portugiesische Republik",
+            "620",
+            null
+        ],
+        [
+            "PW",
+            "537",
+            "Palau",
+            "die Republik Palau",
+            "585",
+            null
+        ],
+        [
+            "PY",
+            "359",
+            "Paraguay",
+            "die Republik Paraguay",
+            "600",
+            null
+        ],
+        [
+            "QA",
+            "447",
+            "Katar",
+            "der Staat Katar",
+            "634",
+            null
+        ],
+        [
+            "RE",
+            "129",
+            "Réunion",
+            "das Departement Réunion",
+            "638",
+            null
+        ],
+        [
+            "RO",
+            "154",
+            "Rumänien",
+            "Rumänien",
+            "642",
+            null
+        ],
+        [
+            "RS",
+            "170",
+            "Serbien",
+            "die Republik Serbien",
+            "688",
+            null
+        ],
+        [
+            "RU",
+            "160",
+            "Russische Föderation",
+            "die Russische Föderation",
+            "643",
+            null
+        ],
+        [
+            "RW",
+            "265",
+            "Ruanda",
+            "die Republik Ruanda",
+            "646",
+            null
+        ],
+        [
+            "SA",
+            "472",
+            "Saudi-Arabien",
+            "das Königreich Saudi-Arabien",
+            "682",
+            null
+        ],
+        [
+            "SB",
+            "524",
+            "Salomonen",
+            "die Salomonen",
+            "090",
+            null
+        ],
+        [
+            "SC",
+            "271",
+            "Seychellen",
+            "die Republik Seychellen",
+            "690",
+            null
+        ],
+        [
+            "SD",
+            "277",
+            "Sudan",
+            "die Republik Sudan",
+            "729",
+            null
+        ],
+        [
+            "SE",
+            "157",
+            "Schweden",
+            "das Königreich Schweden",
+            "752",
+            null
+        ],
+        [
+            "SG",
+            "474",
+            "Singapur",
+            "die Republik Singapur",
+            "702",
+            null
+        ],
+        [
+            "SH",
+            "168",
+            "St. Helena, Ascension und Tristan da Cunha",
+            "St. Helena, Ascension und Tristan da Cunha",
+            "654",
+            null
+        ],
+        [
+            "SI",
+            "131",
+            "Slowenien",
+            "die Republik Slowenien",
+            "705",
+            null
+        ],
+        [
+            "SJ",
+            "149",
+            "Svalbard und Jan Mayen",
+            "Svalbard und Jan Mayen",
+            "744",
+            null
+        ],
+        [
+            "SK",
+            "155",
+            "Slowakei",
+            "die Slowakische Republik",
+            "703",
+            null
+        ],
+        [
+            "SL",
+            "272",
+            "Sierra Leone",
+            "die Republik Sierra Leone",
+            "694",
+            null
+        ],
+        [
+            "SM",
+            "156",
+            "San Marino",
+            "die Republik San Marino",
+            "674",
+            null
+        ],
+        [
+            "SN",
+            "269",
+            "Senegal",
+            "die Republik Senegal",
+            "686",
+            null
+        ],
+        [
+            "SO",
+            "273",
+            "Somalia",
+            "die Bundesrepublik Somalia",
+            "706",
+            null
+        ],
+        [
+            "SR",
+            "364",
+            "Suriname",
+            "die Republik Suriname",
+            "740",
+            null
+        ],
+        [
+            "SS",
+            "278",
+            "Südsudan",
+            "die Republik Südsudan",
+            "728",
+            null
+        ],
+        [
+            "ST",
+            "268",
+            "São Tomé und Príncipe",
+            "die Demokratische Republik São Tomé und Príncipe",
+            "678",
+            null
+        ],
+        [
+            "SV",
+            "337",
+            "El Salvador",
+            "die Republik El Salvador",
+            "222",
+            null
+        ],
+        [
+            "SX",
+            "148",
+            "St. Martin",
+            "St. Martin",
+            "534",
+            null
+        ],
+        [
+            "SY",
+            "475",
+            "Arabische Republik Syrien",
+            "die Arabische Republik Syrien",
+            "760",
+            null
+        ],
+        [
+            "SZ",
+            "281",
+            "Eswatini",
+            "das Königreich Eswatini",
+            "748",
+            null
+        ],
+        [
+            "TC",
+            "168",
+            "Turks- und Caicosinseln",
+            "die Turks- und Caicosinseln",
+            "796",
+            null
+        ],
+        [
+            "TD",
+            "284",
+            "Tschad",
+            "die Republik Tschad",
+            "148",
+            null
+        ],
+        [
+            "TF",
+            null,
+            "Französische Süd- und Antarktisgebiete",
+            "French Southern Territories (the)",
+            "260",
+            "Wurde aus urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsgebiete_2024-08-01 entfernt. Code bei ISO weiter vorhanden. Überestzungs wird erhalten."
+        ],
+        [
+            "TG",
+            "283",
+            "Togo",
+            "die Republik Togo",
+            "768",
+            null
+        ],
+        [
+            "TH",
+            "476",
+            "Thailand",
+            "das Königreich Thailand",
+            "764",
+            null
+        ],
+        [
+            "TJ",
+            "470",
+            "Tadschikistan",
+            "die Republik Tadschikistan",
+            "762",
+            null
+        ],
+        [
+            "TK",
+            "536",
+            "Tokelau",
+            "Tokelau",
+            "772",
+            null
+        ],
+        [
+            "TL",
+            "483",
+            "Timor-Leste",
+            "die Demokratische Republik Timor-Leste",
+            "626",
+            null
+        ],
+        [
+            "TM",
+            "471",
+            "Turkmenistan",
+            "Turkmenistan",
+            "795",
+            null
+        ],
+        [
+            "TN",
+            "285",
+            "Tunesien",
+            "die Tunesische Republik",
+            "788",
+            null
+        ],
+        [
+            "TO",
+            "541",
+            "Tonga",
+            "das Königreich Tonga",
+            "776",
+            null
+        ],
+        [
+            "TR",
+            "163",
+            "Türkei",
+            "die Republik Türkei",
+            "792",
+            null
+        ],
+        [
+            "TT",
+            "371",
+            "Trinidad und Tobago",
+            "die Republik Trinidad und Tobago",
+            "780",
+            null
+        ],
+        [
+            "TV",
+            "540",
+            "Tuvalu",
+            "Tuvalu",
+            "798",
+            null
+        ],
+        [
+            "TW",
+            "995",
+            "Taiwan",
+            "Taiwan",
+            "158",
+            null
+        ],
+        [
+            "TZ",
+            "282",
+            "Vereinigte Republik Tansania",
+            "die Vereinigte Republik Tansania",
+            "834",
+            null
+        ],
+        [
+            "UA",
+            "166",
+            "Ukraine",
+            "die Ukraine",
+            "804",
+            null
+        ],
+        [
+            "UG",
+            "286",
+            "Uganda",
+            "die Republik Uganda",
+            "800",
+            null
+        ],
+        [
+            "UM",
+            "368",
+            "Kleinere Amerikanische Überseeinseln",
+            "die kleineren Amerikanischen Überseeinseln",
+            "581",
+            null
+        ],
+        [
+            "US",
+            "368",
+            "Vereinigte Staaten",
+            "die Vereinigten Staaten von Amerika",
+            "840",
+            null
+        ],
+        [
+            "UY",
+            "365",
+            "Uruguay",
+            "die Republik Östlich des Uruguay",
+            "858",
+            null
+        ],
+        [
+            "UZ",
+            "477",
+            "Usbekistan",
+            "die Republik Usbekistan",
+            "860",
+            null
+        ],
+        [
+            "VA",
+            "167",
+            "Vatikanstadt",
+            "der Staat Vatikanstadt",
+            "336",
+            null
+        ],
+        [
+            "VC",
+            "369",
+            "St. Vincent und die Grenadinen",
+            "St. Vincent und die Grenadinen",
+            "670",
+            null
+        ],
+        [
+            "VE",
+            "367",
+            "Bolivarische Republik Venezuela",
+            "die Bolivarische Republik Venezuela",
+            "862",
+            null
+        ],
+        [
+            "VG",
+            "168",
+            "Britische Jungferninseln",
+            "die Britischen Jungferninseln",
+            "092",
+            null
+        ],
+        [
+            "VI",
+            "368",
+            "Amerikanische Jungferninseln",
+            "die Amerikanischen Jungferninseln",
+            "850",
+            null
+        ],
+        [
+            "VN",
+            "432",
+            "Vietnam",
+            "die Sozialistische Republik Vietnam",
+            "704",
+            null
+        ],
+        [
+            "VU",
+            "532",
+            "Vanuatu",
+            "die Republik Vanuatu",
+            "548",
+            null
+        ],
+        [
+            "WF",
+            "129",
+            "Wallis und Futuna",
+            "Wallis und Futuna",
+            "876",
+            null
+        ],
+        [
+            "WS",
+            "543",
+            "Samoa",
+            "der Unabhängige Staat Samoa",
+            "882",
+            null
+        ],
+        [
+            "YE",
+            "421",
+            "Jemen",
+            "die Republik Jemen",
+            "887",
+            null
+        ],
+        [
+            "YT",
+            "129",
+            "Mayotte",
+            "das Departement Mayotte",
+            "175",
+            null
+        ],
+        [
+            "ZA",
+            "263",
+            "Südafrika",
+            "die Republik Südafrika",
+            "710",
+            null
+        ],
+        [
+            "ZM",
+            "257",
+            "Sambia",
+            "die Republik Sambia",
+            "894",
+            null
+        ],
+        [
+            "ZW",
+            "233",
+            "Simbabwe",
+            "die Republik Simbabwe",
+            "716",
+            null
+        ],
+        [
+            "QU",
+            null,
+            "Unbekannt",
+            "Unbekannt",
+            null,
+            "user assigned code"
+        ],
+        [
+            "XK",
+            "150",
+            "Kosovo",
+            "die Republik Kosovo",
+            null,
+            "user assigned code"
+        ]
+    ],
+    "empfohleneCodes": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AX",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BL",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GL",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GR",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LR",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "MD",
+        "ME",
+        "MF",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PT",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SH",
+        "SI",
+        "SJ",
+        "SK",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW",
+        "QU",
+        "XK"
+    ],
+    "codes": [
+        [
+            "AD",
+            "AE",
+            "AF",
+            "AG",
+            "AI",
+            "AL",
+            "AM",
+            "AO",
+            "AQ",
+            "AR",
+            "AS",
+            "AT",
+            "AU",
+            "AW",
+            "AX",
+            "AZ",
+            "BA",
+            "BB",
+            "BD",
+            "BE",
+            "BF",
+            "BG",
+            "BH",
+            "BI",
+            "BJ",
+            "BL",
+            "BM",
+            "BN",
+            "BO",
+            "BQ",
+            "BR",
+            "BS",
+            "BT",
+            "BV",
+            "BW",
+            "BY",
+            "BZ",
+            "CA",
+            "CC",
+            "CD",
+            "CF",
+            "CG",
+            "CH",
+            "CI",
+            "CK",
+            "CL",
+            "CM",
+            "CN",
+            "CO",
+            "CR",
+            "CU",
+            "CV",
+            "CW",
+            "CX",
+            "CY",
+            "CZ",
+            "DE",
+            "DJ",
+            "DK",
+            "DM",
+            "DO",
+            "DZ",
+            "EC",
+            "EE",
+            "EG",
+            "EH",
+            "ER",
+            "ES",
+            "ET",
+            "FI",
+            "FJ",
+            "FK",
+            "FM",
+            "FO",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GF",
+            "GG",
+            "GH",
+            "GI",
+            "GL",
+            "GM",
+            "GN",
+            "GP",
+            "GQ",
+            "GR",
+            "GS",
+            "GT",
+            "GU",
+            "GW",
+            "GY",
+            "HK",
+            "HM",
+            "HN",
+            "HR",
+            "HT",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IM",
+            "IN",
+            "IO",
+            "IQ",
+            "IR",
+            "IS",
+            "IT",
+            "JE",
+            "JM",
+            "JO",
+            "JP",
+            "KE",
+            "KG",
+            "KH",
+            "KI",
+            "KM",
+            "KN",
+            "KP",
+            "KR",
+            "KW",
+            "KY",
+            "KZ",
+            "LA",
+            "LB",
+            "LC",
+            "LI",
+            "LK",
+            "LR",
+            "LS",
+            "LT",
+            "LU",
+            "LV",
+            "LY",
+            "MA",
+            "MC",
+            "MD",
+            "ME",
+            "MF",
+            "MG",
+            "MH",
+            "MK",
+            "ML",
+            "MM",
+            "MN",
+            "MO",
+            "MP",
+            "MQ",
+            "MR",
+            "MS",
+            "MT",
+            "MU",
+            "MV",
+            "MW",
+            "MX",
+            "MY",
+            "MZ",
+            "NA",
+            "NC",
+            "NE",
+            "NF",
+            "NG",
+            "NI",
+            "NL",
+            "NO",
+            "NP",
+            "NR",
+            "NU",
+            "NZ",
+            "OM",
+            "PA",
+            "PE",
+            "PF",
+            "PG",
+            "PH",
+            "PK",
+            "PL",
+            "PM",
+            "PN",
+            "PR",
+            "PS",
+            "PT",
+            "PW",
+            "PY",
+            "QA",
+            "RE",
+            "RO",
+            "RS",
+            "RU",
+            "RW",
+            "SA",
+            "SB",
+            "SC",
+            "SD",
+            "SE",
+            "SG",
+            "SH",
+            "SI",
+            "SJ",
+            "SK",
+            "SL",
+            "SM",
+            "SN",
+            "SO",
+            "SR",
+            "SS",
+            "ST",
+            "SV",
+            "SX",
+            "SY",
+            "SZ",
+            "TC",
+            "TD",
+            "TF",
+            "TG",
+            "TH",
+            "TJ",
+            "TK",
+            "TL",
+            "TM",
+            "TN",
+            "TO",
+            "TR",
+            "TT",
+            "TV",
+            "TW",
+            "TZ",
+            "UA",
+            "UG",
+            "UM",
+            "US",
+            "UY",
+            "UZ",
+            "VA",
+            "VC",
+            "VE",
+            "VG",
+            "VI",
+            "VN",
+            "VU",
+            "WF",
+            "WS",
+            "YE",
+            "YT",
+            "ZA",
+            "ZM",
+            "ZW",
+            "QU",
+            "XK"
+        ]
+    ]
+}

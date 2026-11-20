@@ -1,0 +1,11 @@
+Peppol BIS Billing 3.0 rules - consent of OpenPeppol AISBL
+
+The Peppol-specific rules of Peppol BIS Billing 3.0 are the work of OpenPeppol AISBL, Brussels, which holds their
+copyright. OpenPeppol AISBL publishes them without a licence, and the BIS document allows redistribution only with its
+prior consent. OpenPeppol AISBL has given that consent for the rule packages of VAMPIRE, which contain these rules
+translated into the rule format of the engine; they are not the original Schematron files.
+
+The consent covers every package that carries these rules, also on public validation pages. invoicePress grants no
+licence of its own to this material, and the rights stay with OpenPeppol AISBL.
+
+Source: https://github.com/OpenPEPPOL/peppol-bis-invoice-3

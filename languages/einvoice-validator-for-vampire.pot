@@ -1,0 +1,1681 @@
+# Copyright (C) 2026
+# This file is distributed under the same license as the eInvoice Validator for VAMPIRE PHP plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: eInvoice Validator for VAMPIRE PHP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-05 11:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: einvoice-validator-for-vampire\n"
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1417 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:74 einvoice-report/src/Lite/Renderer.php:74
+msgid "%1$d error(s), %2$d warning(s), %3$d notice(s)"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:212
+msgid "%1$d errors · %2$d warnings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:94
+msgid "%1$d invoices checked in %2$s seconds, %3$s seconds per invoice on average."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:92
+msgid "%1$d of %2$d invoices checked"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:642
+msgid "%1$d own rule, %2$d official rules switched off"
+msgid_plural "%1$d own rules, %2$d official rules switched off"
+msgstr[0] ""
+msgstr[1] ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:66
+msgid "%1$s: %2$s by edition %3$s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:298
+msgid "%d bytes"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:262
+msgid "%d characters"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:244
+msgid "%d characters in total"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:255
+msgid "%d elements"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:609
+msgid "%d found"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:295
+msgid "%d rules"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:591
+msgid "%d seconds"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:65
+msgid "<code>.xml</code> or a ZUGFeRD / Factur-X <code>.pdf</code>"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:442
+msgid "A ZUGFeRD or Factur-X invoice does not say which edition it follows. With this setting, every upload is also checked against the editions of its format, and a table above the report shows the result of each edition. The full matrix takes up to seven times as long."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:967
+msgid "A document matching none of these is reported as \"no scenario applies\" - deliberately, because that is a different statement from \"checked and accepted\"."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:430
+msgid "A file of the rule package is damaged: %s. Download the package again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:671
+msgid "A profile with the same name replaces the installed one. A file that is not a valid profile is refused, and the installed profiles stay as they are."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:940
+msgid "A rule of the rule set could not be evaluated for this document, so the check was stopped. No other finding is shown, and there is no result. This says nothing about whether the invoice is correct. The engine reports: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:593
+msgid "A rule profile from the Rule Studio adds your own rules to the official ones, or switches official rules off, replaces them or changes their severity. Every finding of a profile is marked with the profile's name in the report, so a rule of your own never looks like a rule of the standard."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:189
+msgid "A rule profile is a .json or .js file exported from the Rule Studio."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:234
+msgid "A token file ( .css ) as the tool kit ships it, at most 32 KB. Only its custom properties under :root and :host are kept. After saving, the kit is chosen for every eInvoice tool."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:62
+msgid "A tool by {siteLink}."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:42 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1414 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:72 einvoice-report/src/Lite/Renderer.php:72
+msgid "Accepted"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:43
+msgid "Accepted with warnings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:48
+msgid "Account holder"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:387
+msgid "Add the text of the rule to every line of the checked rules"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:239
+msgid "Affected field"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:103
+msgid "All"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:50
+msgid "Allowance"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:52
+msgid "Allowances & charges"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:60
+msgid "Amount"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:54
+msgid "Amount due"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:335
+msgid "An earlier step ended the check."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:594
+msgid "An ordinary invoice is checked in under two seconds. Large ones need longer - measured: 1000 line items take about 40 seconds."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:532
+msgid "An uploaded rule package is registered, but its files are missing. Upload it again or switch back to the bundled rule packages."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:607
+msgid "Applies to"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:233
+msgid "As written in the document: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:547
+msgid "Ask your host for PHP 8.2 or newer."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:565
+msgid "Ask your host to enable %s. Without it the validator cannot run."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:270
+msgid "Attachment"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:258
+msgid "BT numbers"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:40 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:503
+msgid "Batch check"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:102
+msgid "Batch check: overview"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:177
+msgid "Behind a proxy or CDN"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:81
+msgid "Cancel"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:430
+msgid "Cascade: from the newest edition down until one accepts the invoice"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:56
+msgid "Charge"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:61 einvoice-validator-for-vampire/includes/class-sppv-settings.php:201
+msgid "Check against every edition"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:110 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:517
+msgid "Check many invoices at once: a month folder, a ZIP or a selection of files. Each invoice is sent to this website on its own, one after the other, checked there and not stored, and the overview lists the verdict of every file."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:109
+msgid "Check many invoices at once: a month folder, a ZIP or a selection of files. VAMPIRE JS checks them one after the other in this browser, and the overview lists the verdict of every file. Nothing leaves the computer."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:49
+msgid "Check your invoice to %s here before you send it. It is checked in your browser and is not sent to anyone, not to us either."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:296
+msgid "Checked file"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:292
+msgid "Checked rules"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:422
+msgid "Checking the invoice in your browser …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:334
+msgid "Checking the invoice …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:76 einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:88
+msgid "Checking …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:80
+msgid "Choose a folder"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:75
+msgid "Choose an invoice"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:79
+msgid "Choose invoices for the batch check"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:608
+msgid "Content"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1427 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:199 einvoice-report/src/Lite/Renderer.php:199
+msgid "Content of the invoice document"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:70
+msgid "Created on %1$s with %2$s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:67
+msgid "Credit note"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:61 einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:58
+msgid "Currency"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:169
+msgid "Daily uploads per role"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:81
+msgid "Data:"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:653
+msgid "Delete"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:212
+msgid "Design kit"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:252
+msgid "Document content"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:57 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:198 einvoice-validator-for-vampire/includes/class-sppv-settings.php:944
+msgid "Document type"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:84
+msgid "Download overview ( CSV )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:344 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1369
+msgid "Download report.html"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:67 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:343 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1368
+msgid "Download report.xml"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:509
+msgid "Drag an e-invoice here or click to choose a file"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:64
+msgid "Drag an invoice here or click to choose a file"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:63
+msgid "Drag in an e-invoice — XRechnung, ZUGFeRD, Factur-X or PEPPOL, as XML or PDF. VAMPIRE JS checks it right here in the browser, and the report appears below with an explanation for every finding."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:77
+msgid "Drag invoices, a folder or a ZIP here, or click to choose files"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:76 einvoice-validator-for-vampire/includes/class-sppv-settings.php:541
+msgid "Edition"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:60
+msgid "Electronic mail"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1429 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:205 einvoice-report/src/Lite/Renderer.php:205
+msgid "Element"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:301
+msgid "Engine"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:221
+msgid "English"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:214
+msgid "Error"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:63 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:181 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:206 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:78 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1419 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:155 einvoice-report/src/Lite/Renderer.php:155
+msgid "Errors"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:53
+msgid "Errors in the PDF part of the file"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:194
+msgid "Errors in the PDF part — the document is invalid"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:180
+msgid "Errors — the document was rejected"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:54
+msgid "File"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:209
+msgid "Findings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:69
+msgid "Findings without a place in the document:"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:88 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:188
+msgid "Findings — the document has recommendations"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:328
+msgid "Fired"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:55
+msgid "Folder or archive"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:222
+msgid "French"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:431
+msgid "Full matrix: every edition"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:220
+msgid "German"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:312
+msgid "Guest ( not logged in )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:219
+msgid "House rule of the check profile %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:208 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:216 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1426 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:157 einvoice-report/src/Lite/Renderer.php:157
+msgid "Information"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:50
+msgid "Information sheet with the requirements"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:557
+msgid "Install a rule package ( ZIP file )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:668
+msgid "Install a rule profile from the Rule Studio ( .json or .js file )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:561
+msgid "Install rule package"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:672
+msgid "Install rule profile"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:68
+msgid "Invoice"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:202 einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:62
+msgid "Invoice date"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:56 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:201
+msgid "Invoice number"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:66
+msgid "Invoice:"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:59
+msgid "Issue date"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:64
+msgid "Item"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:41 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:501
+msgid "Kind of check"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:46
+msgid "Language"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:307
+msgid "Licence"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:542
+msgid "Licence of the rule set"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:238
+msgid "Location in the document"
+msgstr ""
+
+#: einvoice-validator-for-vampire/einvoice-validator-for-vampire.php:298
+msgid "Manual"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:587
+msgid "Maximum execution time"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:161
+msgid "Maximum upload size"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:576
+msgid "Memory limit"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:67
+msgid "Missing, although EN 16931 requires this field here (%s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:70
+msgid "Missing: EN 16931 requires a reason or a reason code here (%s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:73
+msgid "Missing: with VAT category %1$s, EN 16931 requires the buyer VAT identifier (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:76
+msgid "Missing: with VAT category %1$s, EN 16931 requires the buyer VAT identifier or the buyer legal registration identifier (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:79
+msgid "Missing: with VAT category %1$s, EN 16931 requires the seller VAT identifier or the tax representative VAT identifier (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:82
+msgid "Missing: with VAT category %1$s, EN 16931 requires the seller VAT identifier, the seller tax registration identifier or the tax representative VAT identifier (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:65
+msgid "Most frequent rules"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:45
+msgid "No e-invoice"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:87
+msgid "No file matches this filter."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:600
+msgid "No file received."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:784
+msgid "No file received. Choose the ZIP file of the rule package and try again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:700
+msgid "No file received. Choose the profile file and try again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:96
+msgid "No file was found."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:191
+msgid "No findings — the document passed"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1418 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:89 einvoice-report/src/Lite/Renderer.php:89
+msgid "No findings."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:84
+msgid "No liability is assumed for the accuracy of the data."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:83
+msgid "No package for"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:237
+msgid "No plain-language explanation is available for this rule yet. The message above is the validator's own wording."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:344
+msgid "No result"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:108
+msgid "No result for this document. The single check names the reason."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:94
+msgid "No result: no rule set of VAMPIRE JS covers this document."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:937
+msgid "No result: the check stopped at a rule it could not evaluate"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:417 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:956
+msgid "No result: the rule set for this document is not included"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:414 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:946
+msgid "No result: this edition is not included yet"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:601
+msgid "No rule profile is installed. Invoices are checked against the official rule sets only."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:225
+msgid "No translation is available for this rule text yet - shown in %s, not translated."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:172
+msgid "None of the checked editions accepts the invoice; the report of the newest edition %s applies."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:134
+msgid "None of the findings could be located in the document view, although the report names a position for them. The values shown per finding may be incomplete."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:47
+msgid "Not checked"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:50
+msgid "Not checked, because the batch holds too many files."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:51
+msgid "Not checked, because the batch was cancelled."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:52
+msgid "Not checked, because the validation service refused further checks."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:46
+msgid "Not checked: error"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:66
+msgid "Note"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:86
+msgid "Note: this is not a full validation. The viewer only checks mandatory fields, the VAT category rules, the order of the dates and whether the totals add up. A validator checks all rules."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1421
+msgid "Notices"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:429
+msgid "Off: the single check only"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:133
+msgid "Only %1$d of the %2$d findings this report states could be read. The report layout may have changed - please check the original report."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:331
+msgid "Only switch this on when a proxy really sits in front - otherwise a visitor can claim any address and the daily limit stops working."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:388
+msgid "Only with the positive test report. Each line of the section \"Checked rules\" and of its print version then also shows what the rule demands. The print version then becomes up to twice as long. The download as JSON always contains the texts."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:90
+msgid "Open"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:579
+msgid "Ordinary invoices work from about 128 MB. Very large ones ( several hundred line items ) need 256 MB or more - measured: 1000 line items use about 174 MB."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:549
+msgid "Origin, rights holder and licence text of every rule set are in the file NOTICE and the folder licences next to the rule sets."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:85
+msgid "Overview"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:255
+msgid "PHP ( bundled, no Java )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:558
+msgid "PHP extension %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:544
+msgid "PHP version"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:315
+msgid "Per calendar day. Empty = unlimited, 0 = no access. Logged-in users are counted by user, guests by IP address. A user with several roles gets the most generous value; administrators are never limited."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:473
+msgid "Place the %s shortcode on a page to offer the upload form."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:327
+msgid "Places checked"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:337
+msgid "Please choose a PDF or XML file."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:604
+msgid "Please choose an XML file."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:87
+msgid "Plugin"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1428 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:204 einvoice-report/src/Lite/Renderer.php:204
+msgid "Pos."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:185
+msgid "Positive test report"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:345 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:350
+msgid "Print version of the checked rules ( HTML )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:80 einvoice-validator-for-vampire/includes/class-sppv-settings.php:606
+msgid "Profile"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:330
+msgid "Read the visitor address from X-Forwarded-For"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:95
+msgid "Reading the files …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:335
+msgid "Reading the invoice out of the PDF …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:203
+msgid "Reference"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:44 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1415 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:72 einvoice-report/src/Lite/Renderer.php:72
+msgid "Rejected"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:88
+msgid "Related document"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:341
+msgid "Remaining uploads today: %d"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:196
+msgid "Report format"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:106
+msgid "Report of %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:346 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:349
+msgid "Report with every rule ( JSON )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:68 einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:86 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:345 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1370
+msgid "Reset"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:325 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:77
+msgid "Result"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:342
+msgid "Result: accepted"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:343
+msgid "Result: rejected"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:313
+msgid "Role"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:324
+msgid "Rule"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:51
+msgid "Rule package for the KoSIT validator"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:514 einvoice-validator-for-vampire/includes/class-sppv-settings.php:945 einvoice-validator-for-vampire/includes/class-sppv-validator.php:605
+msgid "Rule packages"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:592
+msgid "Rule profiles"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:305 einvoice-validator-for-vampire/includes/class-sppv-settings.php:540
+msgid "Rule set"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:304
+msgid "Rule sets"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:329
+msgid "Rule text"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:193
+msgid "Rule text per line"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:308 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:315
+msgid "Rules"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:80
+msgid "Rules that differ from the other editions"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1084
+msgid "Running the VAMPIRE validator …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:299
+msgid "SHA-256 of the checked file"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:302 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:313
+msgid "Scenario"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:257
+msgid "Search BT field, element name or value …"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:82
+msgid "Search file, number, seller or rule"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:746
+msgid "Security check failed. Please reload the page."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:58 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:200
+msgid "Seller"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:326
+msgid "Severity"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:89
+msgid "Shortcode"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:83 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:318
+msgid "Show"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:358
+msgid "Show every checked rule with its result"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:90
+msgid "Show the report of this invoice"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:39 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:502
+msgid "Single check"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:303
+msgid "Specification identifier (BT-24)"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:309
+msgid "State"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:91
+msgid "Stated %1$s, calculated %2$s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:205
+msgid "Step"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:311
+msgid "Steps of the check"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:85
+msgid "Summary report ( HTML )"
+msgstr ""
+
+#: einvoice-validator-for-vampire/einvoice-validator-for-vampire.php:299
+msgid "Support"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:571
+msgid "Switch back to the bundled rule packages"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:337
+msgid "Switched off by an operator profile."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:199
+msgid "Syntax"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:889
+msgid "Systemcheck"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:87
+msgid "The Extended Profiles packages for %s could not be loaded; the core fields are shown."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:419
+msgid "The add-on VAMPIRE JS is active. While this setting is used, invoices are checked on the server, because the check in the browser cannot apply it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:101
+msgid "The batch was cancelled. The invoices checked so far stay in the overview."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:100
+msgid "The batch was stopped: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:93
+msgid "The check with VAMPIRE JS failed."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:255
+msgid "The choice applies to all eInvoice tools on this site. Kit H is the default."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:89
+msgid "The document could not be parsed as XML, so no finding could be placed in it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:416 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:949
+msgid "The document names the edition %s in BT-24. This installation contains no rule set for that edition yet, so the document was not checked. This says nothing about whether the invoice is correct."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:131
+msgid "The document view could not be read from the report; only the findings are shown."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:142
+msgid "The embedded explanation could not be read as HTML, so the document view is unavailable; only the findings are shown."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:141
+msgid "The embedded explanation was empty, so the document view could not be read; only the findings are shown."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:94
+msgid "The end date is before the start date (%s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:184
+msgid "The errors found are listed below with the affected field and the value the document actually carries."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:266
+msgid "The explanations under the findings help you read them. What counts is the validator's report itself, which you can save with \"Download report.xml\"."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:106 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:424
+msgid "The fields of the extension (BT-X) are shown by their number only, without their value from the document. The Extended Profiles add-on brings the catalogue that finds these values."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:607
+msgid "The file could not be accepted."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:620
+msgid "The file could not be read."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:603
+msgid "The file is empty."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:170
+msgid "The file is not a readable ZIP archive."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:192
+msgid "The file is too large to be a rule profile."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:336 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:602 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1183
+msgid "The file is too large."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:195
+msgid "The invoice XML has no findings. Mustang found errors in the PDF part, for example in its metadata; its messages are in the original report."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:184
+msgid "The invoice date %1$s lies in no known validity period; the invoice was checked with edition %2$s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:176
+msgid "The invoice date %1$s lies in the validity period of edition %2$s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:180
+msgid "The invoice date %1$s lies in the validity period of edition %2$s. Its rule package is not included; the invoice was checked with %3$s, the nearest included edition."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:57
+msgid "The invoice does not yet meet the requirements of %s. The findings are listed below."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:55
+msgid "The invoice is complete according to the requirements of %s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:188
+msgid "The invoice states no readable invoice date; it was checked with the newest included edition %s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:235
+msgid "The kit could not be stored. Please try again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:236
+msgid "The kit file is larger than 32 KB."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:238
+msgid "The kit was stored and is now chosen for every eInvoice tool."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:91
+msgid "The location in the report does not match any node of this document ( neither the path itself nor its parent )."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:165
+msgid "The newer editions %1$s do not accept the invoice; %2$s is the newest edition that accepts it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:162
+msgid "The newest edition %s accepts the invoice."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:560
+msgid "The package replaces the rule sets this site checks with. The validator engine itself stays as it is. A package that does not fit this plugin is refused, and the current rule sets stay in use."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:96
+msgid "The payment due date is before the invoice date."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:660
+msgid "The profiles are applied in the order of their names. A profile written for UBL does not apply to a CII invoice, and the other way round."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:112
+msgid "The report below is the check with edition %s, the edition chosen above. The table above checks the same document against every edition of its format."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:115
+msgid "The report below is the single check with the rule sets of this installation. The table above checks the same document against every edition of its format."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:130
+msgid "The report contains a summary but no detailed findings table."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:78
+msgid "The report could not be read."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:361
+msgid "The report gets a section \"Checked rules\" that names every rule of the rule sets that were used, each with its result: satisfied, violated, not applicable or not checked. It also names each rule set with its edition, the time of the check and a checksum of the document. The visitor can download the full report with every rule as JSON and a print version as HTML, which the browser can save as PDF. The section is technical evidence of a check, not an audit opinion."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:90
+msgid "The report gives no location for this finding - it points at the schema or the document as a whole, not at a node."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:129
+msgid "The report header could not be read; the document details are missing."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1179
+msgid "The request carries no invoice."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:61
+msgid "The requirements of %s apply to invoices in another syntax. This invoice was checked against the official rules only."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:59
+msgid "The requirements of %s could not be loaded, so this invoice was checked against the official rules only. VAMPIRE JS must lie as the folder vampire/ next to this page, with the folder vampire/profiles/ inside it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:79
+msgid "The rule catalogue could not be loaded. Every finding is shown, but without field names and without a plain-language explanation."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:338
+msgid "The rule could not be evaluated."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:368
+msgid "The rule package contains a file that does not belong in it: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:347
+msgid "The rule package contains too many files."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:197
+msgid "The rule package could not be loaded: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:388
+msgid "The rule package is incomplete. Missing: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:290
+msgid "The rule package is incomplete: it contains rule packages per edition, but not the table that connects them ( rulesets/versions/cascade.json )."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:282
+msgid "The rule package is incomplete: the scenario list or the NOTICE is missing."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:381
+msgid "The rule package is too large."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:295
+msgid "The rule package names no valid edition."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:794
+msgid "The rule package, edition %s, is installed. From now on this site checks with it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:294
+msgid "The rule packages are missing from this installation."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:618
+msgid "The rule packages of the validator are missing. Re-install the plugin."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:746
+msgid "The rule profile %s is deleted."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:710
+msgid "The rule profile %s is installed. From now on this site applies it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:750
+msgid "The rule profile could not be deleted."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:214
+msgid "The rule profile was refused: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:328
+msgid "The rule profiles of this site could not be loaded. The invoice was checked against the official rule sets only."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:336
+msgid "The rule set is not part of this package."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:299
+msgid "The server's own upload limit still applies and wins when it is lower."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:508
+msgid "The table of the rule packages per edition is unreadable."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:540
+msgid "The table of the rule packages per edition names a rule set that is not in the package: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:555
+msgid "The table of the rule packages per edition names a schema that is not in the package: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:339 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:601
+msgid "The upload failed. Please try again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:222 einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:231
+msgid "The uploads folder cannot be written, so the profile cannot be stored."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:162 einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:418 einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:443
+msgid "The uploads folder is not writable, so the rule package cannot be stored."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1085
+msgid "The validation failed. Please try again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:98
+msgid "The validation service asks for a pause; the batch goes on in %d seconds."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:362
+msgid "The validator engine in this installation cannot produce this list yet. It comes with the next update of the plugin."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:443
+msgid "The validator engine in this installation carries no rule packages per edition. They come with an update of the plugin or of the rule package."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:139
+msgid "The validator found no scenario for this document and therefore did not check it against any rule set. Its result says nothing about the document's content."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:192
+msgid "The validator reported neither an error nor a warning for this document."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:235
+msgid "The validator's wording"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:86
+msgid "The validators active on this site. Each one has its own page with its settings."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:189
+msgid "The warnings do not block the document. The recipient can process it, but some entries do not follow the recommendation."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:137
+msgid "This Mustang report states no result of its own; it was derived from the number of errors."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:338
+msgid "This PDF carries no e-invoice. A ZUGFeRD or Factur-X PDF has the invoice attached as XML; a PDF that was merely printed does not."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:48
+msgid "This PDF carries no invoice XML."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:77
+msgid "This PDF carries no invoice XML. Only ZUGFeRD and Factur-X PDFs can be checked."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:266
+msgid "This ZIP is not a rule package for VAMPIRE: the file rule-package.json is missing or unreadable."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:232
+msgid "This check applies the publication Factur-X / ZUGFeRD of FNFE-MPE and FeRD."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:85
+msgid "This document uses an extension ( %s ). The core fields are shown; the fields and rules of the extension come with Extended Profiles."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:339
+msgid "This engine cannot carry out this step."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:620
+msgid "This file cannot be loaded, and no profile is applied while it is here: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:49
+msgid "This file is no invoice XML."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:237
+msgid "This file is not a token file of a design kit. It may only hold custom properties under :root and :host, among them --bg and --accent."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:420 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:961
+msgid "This installation does not contain the rule set %s, so the document was not checked. This says nothing about whether the invoice is correct."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:418 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:958
+msgid "This installation does not contain the rule set this document needs, so the document was not checked. This says nothing about whether the invoice is correct."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:53
+msgid "This invoice is not addressed to %s. It was checked against the official rules only."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-profiles.php:205
+msgid "This is the list of profiles ( index.js ), not a profile. Upload the file named after the profile instead."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:76
+msgid "This overview lists the verdict of the validator for every file. The reasons stand in the single report of each invoice."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:191
+msgid "This package contains no rule packages per edition for this format; the invoice was checked as in a single check."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:70
+msgid "This page checks the invoice in this browser with VAMPIRE JS. The invoice is <strong>not sent</strong>."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:140
+msgid "This report carries no embedded HTML explanation, so the document view could not be read; only the findings are shown."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:179
+msgid "This report could only be read in part"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:135
+msgid "This report declared UTF-8 but was not encoded as UTF-8; it was converted from Windows-1252 to be readable. Umlauts may differ from the validator's original output."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:138
+msgid "This report format lists findings with their XPath, line and column, but does not carry the document itself. The document view stays empty."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:293
+msgid "This report is technical evidence of a check against the rule sets in the editions named here. It is not an audit opinion."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:105 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:423
+msgid "This report names fields of an extension"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:274
+msgid "This rule package is a trial build for measurements and must not be installed."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:279
+msgid "This rule package needs a newer validator engine than the one in this plugin. Update the plugin first, then upload the package again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:269
+msgid "This rule package was made for a newer plugin. Update the plugin first, then upload the package again."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:228
+msgid "This rule text was translated by machine and has not been reviewed yet."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-rule-packages.php:157
+msgid "This server cannot open ZIP files ( the PHP extension zip is missing ). Ask your host to enable it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:827
+msgid "This site checks with the rule packages bundled with the plugin again. The uploaded package is deleted."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:527
+msgid "This site checks with the rule packages bundled with the plugin."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:520
+msgid "This site checks with the uploaded rule package, edition %1$s, installed on %2$s."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:103
+msgid "This tool is not available for your account."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:136
+msgid "This validator reported an internal error while checking the document. Its result says more about the tool than about the invoice."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:300
+msgid "Time of the check (UTC)"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:197
+msgid "Time of validation"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:306
+msgid "Title"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:341
+msgid "To keep this report as a PDF, open the print dialogue of the browser and choose “Save as PDF” as the printer. This line does not appear on paper."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:98
+msgid "Totals"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:233
+msgid "Upload a kit of your own"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:507
+msgid "Upload an e-invoice for validation"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:314
+msgid "Uploads per day"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:413
+msgid "VAMPIRE JS could not be loaded. Please reload the page."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:92
+msgid "VAMPIRE JS is not next to this page. This app checks with the add-on VAMPIRE JS; put its folder vampire/ or its file vampire-js.js next to the start page."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:100
+msgid "VAT breakdown"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1083
+msgid "Validate with VAMPIRE"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:342 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1371
+msgid "Validation report"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:340
+msgid "Validation report with every checked rule"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1425 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:154 einvoice-report/src/Lite/Renderer.php:154
+msgid "Validation step"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:204
+msgid "Validation steps"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1430 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:206 einvoice-report/src/Lite/Renderer.php:206
+msgid "Value"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:62
+msgid "Verdict"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:88
+msgid "Version"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:89
+msgid "Waiting"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:215
+msgid "Warning"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:64 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:186 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:207 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:79 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1420 einvoice-validator-for-vampire/vendor/specialpress/einvoice-report/src/Lite/Renderer.php:156 einvoice-report/src/Lite/Renderer.php:156
+msgid "Warnings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:312
+msgid "Well-formed XML"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:942
+msgid "What this installation checks"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:103
+msgid "With VAT category %1$s the VAT rate must be 0 (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:106
+msgid "With VAT category %1$s the VAT rate must be greater than zero (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:109
+msgid "With VAT category %1$s the tax amount must be 0 (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:112
+msgid "With VAT category %1$s there must be no exemption reason and no exemption reason code (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:115
+msgid "With VAT category %1$s, EN 16931 requires an exemption reason or an exemption reason code (%2$s)."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:104
+msgid "With warnings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:314
+msgid "XML schema"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:78
+msgid "XML, ZUGFeRD / Factur-X PDF, ZIP or e-mail ( .eml ), as many as you like"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:690 einvoice-validator-for-vampire/includes/class-sppv-settings.php:737 einvoice-validator-for-vampire/includes/class-sppv-settings.php:774 einvoice-validator-for-vampire/includes/class-sppv-settings.php:821
+msgid "You are not allowed to change these settings."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:105
+msgid "You have reached the daily upload limit. Please try again tomorrow."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-plugin.php:510
+msgid "ZUGFeRD / Factur-X PDF or CII / UBL XML"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:72 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:193 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:210
+msgid "accepted"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:73 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:211
+msgid "accepted with warnings"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:319
+msgid "all"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:250
+msgid "and %d further positions"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:617
+msgid "bundled with the plugin"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:310
+msgid "checked"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-settings.php:79 einvoice-validator-for-vampire/includes/class-sppv-settings.php:98 einvoice-validator-for-vampire/includes/class-sppv-settings.php:99 einvoice-validator-for-vampire/includes/class-sppv-settings.php:462
+msgid "eInvoice Validator for VAMPIRE PHP"
+msgstr ""
+
+#: einvoice-validator-for-vampire/einvoice-validator-for-vampire.php:89
+msgid "eInvoice Validator for VAMPIRE PHP needs PHP 8.2 or newer. This server runs PHP %s, so the plugin stays inactive."
+msgstr ""
+
+#: einvoice-validator-for-vampire/einvoice-validator-for-vampire.php:116
+msgid "eInvoice Validator for VAMPIRE PHP needs the PHP extensions %s, which this server does not load, so the plugin stays inactive. Ask your host to enable them."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:241
+msgid "empty"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:330 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1422
+msgid "error"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:317
+msgid "failed"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:71
+msgid "files"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:259
+msgid "findings only"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:334
+msgid "in the rule set: %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:332 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1424
+msgid "information"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:562
+msgid "loaded"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:562
+msgid "missing"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:213 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:421 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:970
+msgid "no result"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:217
+msgid "no rule id"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:322
+msgid "not applicable"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:75 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:323 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:214
+msgid "not checked"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:240
+msgid "not present in the document"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:316
+msgid "passed"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:247
+msgid "position %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-batch-texts.php:74 einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:185 einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:212
+msgid "rejected"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:320
+msgid "satisfied"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-matrix-view.php:100
+msgid "schema"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:578 einvoice-validator-for-vampire/includes/class-sppv-validator.php:589
+msgid "unlimited"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-validator.php:614
+msgid "uploaded rule package, edition %s"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:321
+msgid "violated"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:331 einvoice-validator-for-vampire/includes/class-sppv-plugin.php:1423
+msgid "warning"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:82
+msgid "without a rule ID"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-explainer-view.php:190
+msgid "worth checking"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-spvp-js-texts.php:117
+msgid "yes"
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:73
+msgid "⚠️ <strong>This single file loads data from {site} but sends nothing from the invoice there.</strong> German and French with their rule catalogues, the code lists, Kits A and S, the fonts and the manual come from there; English and its rule catalogue are inside the file. Without a connection it shows English."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:71
+msgid "⚠️ <strong>VAMPIRE JS is an add-on.</strong> It lies as the folder vampire/ or as the file vampire-js.js next to the start page of this app. Without it the page cannot check anything and says so."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:72
+msgid "⚠️ <strong>What this page loads from outside is set in config.js.</strong> As delivered, the folder loads nothing from a website: the fonts and the rule catalogue lie inside it."
+msgstr ""
+
+#: einvoice-validator-for-vampire/includes/class-sppv-app-texts.php:74
+msgid "⚠️ <strong>Without the rule catalogue there are no plain-language explanations.</strong> If it cannot be loaded, the report shows the validator's own messages — complete, but in the validator's language."
+msgstr ""
+

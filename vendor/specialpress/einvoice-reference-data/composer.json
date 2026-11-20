@@ -1,0 +1,24 @@
+{
+    "name": "specialpress/einvoice-reference-data",
+    "description": "Canonical EN16931 / Factur-X business-term catalogue, cross-referenced Schematron rules, and unmodified XÖV codelists for the eInvoice plugin family - build/build.php regenerates dist/ from _einvoice-shared-data.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "version": "1.16.0",
+    "authors": [
+        {
+            "name": "Ralf Fuhrmann",
+            "homepage": "https://www.specialpress.de"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecialPress\\EInvoice\\ReferenceData\\": "dist/php/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

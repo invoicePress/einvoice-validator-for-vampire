@@ -1,0 +1,113 @@
+{
+    "stage": "explainer",
+    "dateien": {
+        "en16931-cii.explainer.json": {
+            "standard": "EN16931-CII",
+            "rule_count": 810,
+            "bytes": 144479,
+            "sha256": "232fd75f28142703c5d41e4e148b850bbb2c612e9ca63d207ec2dd04aedeebdc"
+        },
+        "en16931-ubl.explainer.json": {
+            "standard": "EN16931-UBL",
+            "rule_count": 982,
+            "bytes": 186728,
+            "sha256": "9479f36efa68ae8cfd45498aa0d00e31618c91d2e28197034358a06bf99dcbda"
+        },
+        "xrechnung-cii.explainer.json": {
+            "standard": "XRechnung-CII",
+            "rule_count": 74,
+            "bytes": 22097,
+            "sha256": "50ba032f0b49850ba33669de2b302dd8f46894873064af6e150cd6c56d415f92"
+        },
+        "xrechnung-ubl.explainer.json": {
+            "standard": "XRechnung-UBL",
+            "rule_count": 77,
+            "bytes": 22961,
+            "sha256": "e0570b8ace1663757bb34770305f50cc026dcaa5e4390f0840adfeb960728827"
+        },
+        "peppol-billing3-ubl.explainer.json": {
+            "standard": "PEPPOL-BIS-Billing3-UBL",
+            "rule_count": 165,
+            "bytes": 46914,
+            "sha256": "0135dd35d434ef2bf67c165ab65fba8833421513c2bb66bc384ef9dddec6b6ac"
+        },
+        "peppol-billing3-cen-ubl.explainer.json": {
+            "standard": "PEPPOL-CEN-EN16931-UBL",
+            "rule_count": 979,
+            "bytes": 185437,
+            "sha256": "4efe169c624f65ccf9eabe8112ebcb1339153eb53cfa20acb951bb68c01a4441"
+        },
+        "france-flux2-cii.explainer.json": {
+            "standard": "BR-FR-Flux2-CII",
+            "rule_count": 171,
+            "bytes": 62143,
+            "sha256": "ea2279397671b0a9c70e84a5fd09bfc08a899d30221c226334972a18df477c31"
+        },
+        "france-flux2-ubl.explainer.json": {
+            "standard": "BR-FR-Flux2-UBL",
+            "rule_count": 175,
+            "bytes": 63974,
+            "sha256": "92fbf7c06d621249441b6806031bb45a9e3eeec5077d3bc51237efb836945640"
+        },
+        "france-extended-ctc-cii.explainer.json": {
+            "standard": "EXTENDED-CTC-FR-CII",
+            "rule_count": 773,
+            "bytes": 168504,
+            "sha256": "c670336a4e950725e12e0f037d3aa9c638227024c9a66e552a7987675c446f98"
+        },
+        "france-extended-ctc-ubl.explainer.json": {
+            "standard": "EXTENDED-CTC-FR-UBL",
+            "rule_count": 953,
+            "bytes": 189668,
+            "sha256": "750e548720788ca3e4eaff9a6854dca6917f4be57896acf4006b02e48b23491f"
+        },
+        "factur-x-en16931.explainer.json": {
+            "standard": "FACTUR-X-EN16931",
+            "rule_count": 627,
+            "bytes": 124231,
+            "sha256": "010b7bf7fd9d5f8ea2221cfd202b51d77ae79892113fae13ce31c36affce2beb"
+        },
+        "factur-x-extended.explainer.json": {
+            "standard": "FACTUR-X-EXTENDED",
+            "rule_count": 1464,
+            "bytes": 278827,
+            "sha256": "f71f3bde7e185292cbb5a206c5454e67a6c5dc5c70a5574e173d736ea9052bba"
+        },
+        "cius-pt-ubl.explainer.json": {
+            "standard": "CIUS-PT-UBL",
+            "rule_count": 1154,
+            "bytes": 216311,
+            "sha256": "6cdbc731055b1c58a6b1e02a7e334afabb9b40bfffb6f2678902c171e12c31a9"
+        },
+        "cius-ro-ubl.explainer.json": {
+            "standard": "CIUS-RO-UBL",
+            "rule_count": 1098,
+            "bytes": 225355,
+            "sha256": "65f8ba3887431375182ee0c37b9f8455b528993b9a5464217e5cc5f05e4ecbce"
+        },
+        "cius-hr-eracun-ubl.explainer.json": {
+            "standard": "CIUS-HR-eRacun-UBL",
+            "rule_count": 62,
+            "bytes": 15139,
+            "sha256": "ae89bd9545419a3f7d15b58fdbaf7a8637d35370bd44a3d12fc5bcb843988b55"
+        },
+        "cius-be-ublbe-ubl.explainer.json": {
+            "standard": "CIUS-BE-UBLBE-UBL",
+            "rule_count": 1050,
+            "bytes": 202360,
+            "sha256": "852fc02d8beabd3a4735e886ead536a26f0d54d22e5dc0191813aec5224c0b66"
+        },
+        "peppol-italy-agid-ubl.explainer.json": {
+            "standard": "PEPPOL-IT-AGID-UBL",
+            "rule_count": 1187,
+            "bytes": 259960,
+            "sha256": "a482abccc25605848619cc1d29083a31a8b8f879a1d38075fbdea94bcd2bfa48"
+        },
+        "INDEX.explainer.json": {
+            "standard": "",
+            "rule_count": 0,
+            "bytes": 4284,
+            "sha256": "a7988bb12337c713d62d3945512cb985eb5bfe2d50c79f4491b0ed548c98b079"
+        }
+    }
+}

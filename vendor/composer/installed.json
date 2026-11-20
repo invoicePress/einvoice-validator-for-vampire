@@ -1,0 +1,105 @@
+{
+    "packages": [
+        {
+            "name": "specialpress/einvoice-frontend-core",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../libs/einvoice-frontend-core",
+                "reference": "d96a485548480c144b046e3c4a908908dd119064"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SpecialPress\\EInvoice\\FrontendCore\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ralf Fuhrmann",
+                    "homepage": "https://www.specialpress.de"
+                }
+            ],
+            "description": "The engine-independent half of a validator frontend: upload acceptance, the report view pipeline (read -> attach document -> render), and the adapter contract every engine implements. No WordPress admin UI, no engine.",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            },
+            "install-path": "../specialpress/einvoice-frontend-core"
+        },
+        {
+            "name": "specialpress/einvoice-reference-data",
+            "version": "1.12.0",
+            "version_normalized": "1.12.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../libs/einvoice-reference-data",
+                "reference": "3b5a38a20f81fecc5f09b01b4993a0bc56e1fc80"
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SpecialPress\\EInvoice\\ReferenceData\\": "dist/php/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ralf Fuhrmann",
+                    "homepage": "https://www.specialpress.de"
+                }
+            ],
+            "description": "Canonical EN16931 / Factur-X business-term catalogue, cross-referenced Schematron rules, and unmodified XÖV codelists for the eInvoice plugin family - build/build.php regenerates dist/ from _einvoice-shared-data.",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            },
+            "install-path": "../specialpress/einvoice-reference-data"
+        },
+        {
+            "name": "specialpress/einvoice-report",
+            "version": "1.16.0",
+            "version_normalized": "1.16.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../libs/einvoice-report",
+                "reference": "bf461bf9cc7db406d8781aea2fb7b57d90376c36"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SpecialPress\\EInvoice\\Report\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Reads a KoSIT validator report (native XML or its HTML rendering) into one report model - findings, validation steps, the flat document view, and the verdict. No BT/BG mapping, no explanation text - that stays in the eInvoice Validation Explainer. Package in the Validator/Explainer plugins, never its own plugin.",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            },
+            "install-path": "../specialpress/einvoice-report"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

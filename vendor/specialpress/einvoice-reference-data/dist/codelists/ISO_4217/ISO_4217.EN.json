@@ -1,0 +1,1186 @@
+{
+    "metadaten": {
+        "version": "4",
+        "kennungInhalt": "urn:xoev-de:kosit:codeliste:currency-codes",
+        "nameTechnisch": "Currency-Codes",
+        "nameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Currency Codes"
+                }
+            ],
+            "noCodeValue": "Currency Codes",
+            "defaultValue": "Currency Codes",
+            "first": "Currency Codes"
+        },
+        "nameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Currency Codes"
+                }
+            ],
+            "noCodeValue": "Currency Codes",
+            "defaultValue": "Currency Codes",
+            "first": "Currency Codes"
+        },
+        "beschreibung": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Codeliste basiert auf dem Standard \"Currency codes\" der International Organization for Standardization (ISO). Die vorliegende Version der Codeliste enthält alle Codelisteneinträge, die mit einem listenweit eindeutigen Eintrag in den Feldern \"Currency\" und \"Alphabetic Code\" geführt werden. Sie ist konform zur EN16931-1 und zu dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol BIS Order only."
+                }
+            ],
+            "noCodeValue": "Die Codeliste basiert auf dem Standard \"Currency codes\" der International Organization for Standardization (ISO). Die vorliegende Version der Codeliste enthält alle Codelisteneinträge, die mit einem listenweit eindeutigen Eintrag in den Feldern \"Currency\" und \"Alphabetic Code\" geführt werden. Sie ist konform zur EN16931-1 und zu dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol BIS Order only.",
+            "defaultValue": "Die Codeliste basiert auf dem Standard \"Currency codes\" der International Organization for Standardization (ISO). Die vorliegende Version der Codeliste enthält alle Codelisteneinträge, die mit einem listenweit eindeutigen Eintrag in den Feldern \"Currency\" und \"Alphabetic Code\" geführt werden. Sie ist konform zur EN16931-1 und zu dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol BIS Order only.",
+            "first": "Die Codeliste basiert auf dem Standard \"Currency codes\" der International Organization for Standardization (ISO). Die vorliegende Version der Codeliste enthält alle Codelisteneinträge, die mit einem listenweit eindeutigen Eintrag in den Feldern \"Currency\" und \"Alphabetic Code\" geführt werden. Sie ist konform zur EN16931-1 und zu dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol BIS Order only."
+        },
+        "beschreibungVersion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠ Datengrundlage bildet die von SIX veröffentlichte Current Currency & Funds Liste vom 2026-01-01."
+                }
+            ],
+            "noCodeValue": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠ Datengrundlage bildet die von SIX veröffentlichte Current Currency & Funds Liste vom 2026-01-01.",
+            "defaultValue": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠ Datengrundlage bildet die von SIX veröffentlichte Current Currency & Funds Liste vom 2026-01-01.",
+            "first": "⚠ ️⚠ Es handelt sich um einen Entwurf. Zur Endfassung werden sich vermutlich noch Änderungen ergeben ⚠ ️⚠ Datengrundlage bildet die von SIX veröffentlichte Current Currency & Funds Liste vom 2026-01-01."
+        },
+        "herausgebernameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "KoSIT"
+                }
+            ],
+            "noCodeValue": "KoSIT",
+            "defaultValue": "KoSIT",
+            "first": "KoSIT"
+        },
+        "herausgebernameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Koordinierungsstelle für IT-Standards"
+                }
+            ],
+            "noCodeValue": "Koordinierungsstelle für IT-Standards",
+            "defaultValue": "Koordinierungsstelle für IT-Standards",
+            "first": "Koordinierungsstelle für IT-Standards"
+        },
+        "aenderungZurVorversion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "* Hinzugefügt: SLE (Leone) * Hinzugefügt: VED (Bolívar Soberano) * Hinzugefügt: XAD (Arab Accounting Dinar) * Hinzugefügt: XCG (Caribbean Guilder) * Hinzugefügt: ZWG (Zimbabwe Gold) * Entfernt: ANG (Netherlands Antillean Guilder) * Entfernt: BGN (Bulgarian Lev) * Entfernt: CUC (Peso Convertible) * Entfernt: HRK (Kuna) * Entfernt: SLL (Leone) * Entfernt: ZWL (Zimbabwe Dollar)"
+                }
+            ],
+            "noCodeValue": "* Hinzugefügt: SLE (Leone) * Hinzugefügt: VED (Bolívar Soberano) * Hinzugefügt: XAD (Arab Accounting Dinar) * Hinzugefügt: XCG (Caribbean Guilder) * Hinzugefügt: ZWG (Zimbabwe Gold) * Entfernt: ANG (Netherlands Antillean Guilder) * Entfernt: BGN (Bulgarian Lev) * Entfernt: CUC (Peso Convertible) * Entfernt: HRK (Kuna) * Entfernt: SLL (Leone) * Entfernt: ZWL (Zimbabwe Dollar)",
+            "defaultValue": "* Hinzugefügt: SLE (Leone) * Hinzugefügt: VED (Bolívar Soberano) * Hinzugefügt: XAD (Arab Accounting Dinar) * Hinzugefügt: XCG (Caribbean Guilder) * Hinzugefügt: ZWG (Zimbabwe Gold) * Entfernt: ANG (Netherlands Antillean Guilder) * Entfernt: BGN (Bulgarian Lev) * Entfernt: CUC (Peso Convertible) * Entfernt: HRK (Kuna) * Entfernt: SLL (Leone) * Entfernt: ZWL (Zimbabwe Dollar)",
+            "first": "* Hinzugefügt: SLE (Leone) * Hinzugefügt: VED (Bolívar Soberano) * Hinzugefügt: XAD (Arab Accounting Dinar) * Hinzugefügt: XCG (Caribbean Guilder) * Hinzugefügt: ZWG (Zimbabwe Gold) * Entfernt: ANG (Netherlands Antillean Guilder) * Entfernt: BGN (Bulgarian Lev) * Entfernt: CUC (Peso Convertible) * Entfernt: HRK (Kuna) * Entfernt: SLL (Leone) * Entfernt: ZWL (Zimbabwe Dollar)"
+        },
+        "handbuchVersion": "1.3",
+        "bezugsorte": [],
+        "gueltigAb": "2026-01-01T00:00:00Z",
+        "definiertNachCodelistenHandbuch": false,
+        "kennung": "urn:xoev-de:kosit:codeliste:currency-codes_4",
+        "definiertNachXoevHandbuch": true
+    },
+    "spalten": [
+        {
+            "spaltennameLang": "Alphabetic Code",
+            "spaltennameTechnisch": "alphabeticCode",
+            "codeSpalte": true,
+            "empfohleneCodeSpalte": true,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Currency",
+            "spaltennameTechnisch": "currency",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        }
+    ],
+    "daten": [
+        [
+            "AED",
+            "UAE Dirham"
+        ],
+        [
+            "AFN",
+            "Afghani"
+        ],
+        [
+            "ALL",
+            "Lek"
+        ],
+        [
+            "AMD",
+            "Armenian Dram"
+        ],
+        [
+            "AOA",
+            "Kwanza"
+        ],
+        [
+            "ARS",
+            "Argentine Peso"
+        ],
+        [
+            "AUD",
+            "Australian Dollar"
+        ],
+        [
+            "AWG",
+            "Aruban Florin"
+        ],
+        [
+            "AZN",
+            "Azerbaijan Manat"
+        ],
+        [
+            "BAM",
+            "Convertible Mark"
+        ],
+        [
+            "BBD",
+            "Barbados Dollar"
+        ],
+        [
+            "BDT",
+            "Taka"
+        ],
+        [
+            "BHD",
+            "Bahraini Dinar"
+        ],
+        [
+            "BIF",
+            "Burundi Franc"
+        ],
+        [
+            "BMD",
+            "Bermudian Dollar"
+        ],
+        [
+            "BND",
+            "Brunei Dollar"
+        ],
+        [
+            "BOB",
+            "Boliviano"
+        ],
+        [
+            "BOV",
+            "Mvdol"
+        ],
+        [
+            "BRL",
+            "Brazilian Real"
+        ],
+        [
+            "BSD",
+            "Bahamian Dollar"
+        ],
+        [
+            "BTN",
+            "Ngultrum"
+        ],
+        [
+            "BWP",
+            "Pula"
+        ],
+        [
+            "BYN",
+            "Belarusian Ruble"
+        ],
+        [
+            "BZD",
+            "Belize Dollar"
+        ],
+        [
+            "CAD",
+            "Canadian Dollar"
+        ],
+        [
+            "CDF",
+            "Congolese Franc"
+        ],
+        [
+            "CHE",
+            "WIR Euro"
+        ],
+        [
+            "CHF",
+            "Swiss Franc"
+        ],
+        [
+            "CHW",
+            "WIR Franc"
+        ],
+        [
+            "CLF",
+            "Unidad de Fomento"
+        ],
+        [
+            "CLP",
+            "Chilean Peso"
+        ],
+        [
+            "CNY",
+            "Yuan Renminbi"
+        ],
+        [
+            "COP",
+            "Colombian Peso"
+        ],
+        [
+            "COU",
+            "Unidad de Valor Real"
+        ],
+        [
+            "CRC",
+            "Costa Rican Colon"
+        ],
+        [
+            "CUP",
+            "Cuban Peso"
+        ],
+        [
+            "CVE",
+            "Cabo Verde Escudo"
+        ],
+        [
+            "CZK",
+            "Czech Koruna"
+        ],
+        [
+            "DJF",
+            "Djibouti Franc"
+        ],
+        [
+            "DKK",
+            "Danish Krone"
+        ],
+        [
+            "DOP",
+            "Dominican Peso"
+        ],
+        [
+            "DZD",
+            "Algerian Dinar"
+        ],
+        [
+            "EGP",
+            "Egyptian Pound"
+        ],
+        [
+            "ERN",
+            "Nakfa"
+        ],
+        [
+            "ETB",
+            "Ethiopian Birr"
+        ],
+        [
+            "EUR",
+            "Euro"
+        ],
+        [
+            "FJD",
+            "Fiji Dollar"
+        ],
+        [
+            "FKP",
+            "Falkland Islands Pound"
+        ],
+        [
+            "GBP",
+            "Pound Sterling"
+        ],
+        [
+            "GEL",
+            "Lari"
+        ],
+        [
+            "GHS",
+            "Ghana Cedi"
+        ],
+        [
+            "GIP",
+            "Gibraltar Pound"
+        ],
+        [
+            "GMD",
+            "Dalasi"
+        ],
+        [
+            "GNF",
+            "Guinean Franc"
+        ],
+        [
+            "GTQ",
+            "Quetzal"
+        ],
+        [
+            "GYD",
+            "Guyana Dollar"
+        ],
+        [
+            "HKD",
+            "Hong Kong Dollar"
+        ],
+        [
+            "HNL",
+            "Lempira"
+        ],
+        [
+            "HTG",
+            "Gourde"
+        ],
+        [
+            "HUF",
+            "Forint"
+        ],
+        [
+            "IDR",
+            "Rupiah"
+        ],
+        [
+            "ILS",
+            "New Israeli Sheqel"
+        ],
+        [
+            "INR",
+            "Indian Rupee"
+        ],
+        [
+            "IQD",
+            "Iraqi Dinar"
+        ],
+        [
+            "IRR",
+            "Iranian Rial"
+        ],
+        [
+            "ISK",
+            "Iceland Krona"
+        ],
+        [
+            "JMD",
+            "Jamaican Dollar"
+        ],
+        [
+            "JOD",
+            "Jordanian Dinar"
+        ],
+        [
+            "JPY",
+            "Yen"
+        ],
+        [
+            "KES",
+            "Kenyan Shilling"
+        ],
+        [
+            "KGS",
+            "Som"
+        ],
+        [
+            "KHR",
+            "Riel"
+        ],
+        [
+            "KMF",
+            "Comorian Franc"
+        ],
+        [
+            "KPW",
+            "North Korean Won"
+        ],
+        [
+            "KRW",
+            "Won"
+        ],
+        [
+            "KWD",
+            "Kuwaiti Dinar"
+        ],
+        [
+            "KYD",
+            "Cayman Islands Dollar"
+        ],
+        [
+            "KZT",
+            "Tenge"
+        ],
+        [
+            "LAK",
+            "Lao Kip"
+        ],
+        [
+            "LBP",
+            "Lebanese Pound"
+        ],
+        [
+            "LKR",
+            "Sri Lanka Rupee"
+        ],
+        [
+            "LRD",
+            "Liberian Dollar"
+        ],
+        [
+            "LSL",
+            "Loti"
+        ],
+        [
+            "LYD",
+            "Libyan Dinar"
+        ],
+        [
+            "MAD",
+            "Moroccan Dirham"
+        ],
+        [
+            "MDL",
+            "Moldovan Leu"
+        ],
+        [
+            "MGA",
+            "Malagasy Ariary"
+        ],
+        [
+            "MKD",
+            "Denar"
+        ],
+        [
+            "MMK",
+            "Kyat"
+        ],
+        [
+            "MNT",
+            "Tugrik"
+        ],
+        [
+            "MOP",
+            "Pataca"
+        ],
+        [
+            "MRU",
+            "Ouguiya"
+        ],
+        [
+            "MUR",
+            "Mauritius Rupee"
+        ],
+        [
+            "MVR",
+            "Rufiyaa"
+        ],
+        [
+            "MWK",
+            "Malawi Kwacha"
+        ],
+        [
+            "MXN",
+            "Mexican Peso"
+        ],
+        [
+            "MXV",
+            "Mexican Unidad de Inversion (UDI)"
+        ],
+        [
+            "MYR",
+            "Malaysian Ringgit"
+        ],
+        [
+            "MZN",
+            "Mozambique Metical"
+        ],
+        [
+            "NAD",
+            "Namibia Dollar"
+        ],
+        [
+            "NGN",
+            "Naira"
+        ],
+        [
+            "NIO",
+            "Cordoba Oro"
+        ],
+        [
+            "NOK",
+            "Norwegian Krone"
+        ],
+        [
+            "NPR",
+            "Nepalese Rupee"
+        ],
+        [
+            "NZD",
+            "New Zealand Dollar"
+        ],
+        [
+            "OMR",
+            "Rial Omani"
+        ],
+        [
+            "PAB",
+            "Balboa"
+        ],
+        [
+            "PEN",
+            "Sol"
+        ],
+        [
+            "PGK",
+            "Kina"
+        ],
+        [
+            "PHP",
+            "Philippine Peso"
+        ],
+        [
+            "PKR",
+            "Pakistan Rupee"
+        ],
+        [
+            "PLN",
+            "Zloty"
+        ],
+        [
+            "PYG",
+            "Guarani"
+        ],
+        [
+            "QAR",
+            "Qatari Rial"
+        ],
+        [
+            "RON",
+            "Romanian Leu"
+        ],
+        [
+            "RSD",
+            "Serbian Dinar"
+        ],
+        [
+            "RUB",
+            "Russian Ruble"
+        ],
+        [
+            "RWF",
+            "Rwanda Franc"
+        ],
+        [
+            "SAR",
+            "Saudi Riyal"
+        ],
+        [
+            "SBD",
+            "Solomon Islands Dollar"
+        ],
+        [
+            "SCR",
+            "Seychelles Rupee"
+        ],
+        [
+            "SDG",
+            "Sudanese Pound"
+        ],
+        [
+            "SEK",
+            "Swedish Krona"
+        ],
+        [
+            "SGD",
+            "Singapore Dollar"
+        ],
+        [
+            "SHP",
+            "Saint Helena Pound"
+        ],
+        [
+            "SLE",
+            "Leone"
+        ],
+        [
+            "SOS",
+            "Somali Shilling"
+        ],
+        [
+            "SRD",
+            "Surinam Dollar"
+        ],
+        [
+            "SSP",
+            "South Sudanese Pound"
+        ],
+        [
+            "STN",
+            "Dobra"
+        ],
+        [
+            "SVC",
+            "El Salvador Colon"
+        ],
+        [
+            "SYP",
+            "Syrian Pound"
+        ],
+        [
+            "SZL",
+            "Lilangeni"
+        ],
+        [
+            "THB",
+            "Baht"
+        ],
+        [
+            "TJS",
+            "Somoni"
+        ],
+        [
+            "TMT",
+            "Turkmenistan New Manat"
+        ],
+        [
+            "TND",
+            "Tunisian Dinar"
+        ],
+        [
+            "TOP",
+            "Pa’anga"
+        ],
+        [
+            "TRY",
+            "Turkish Lira"
+        ],
+        [
+            "TTD",
+            "Trinidad and Tobago Dollar"
+        ],
+        [
+            "TWD",
+            "New Taiwan Dollar"
+        ],
+        [
+            "TZS",
+            "Tanzanian Shilling"
+        ],
+        [
+            "UAH",
+            "Hryvnia"
+        ],
+        [
+            "UGX",
+            "Uganda Shilling"
+        ],
+        [
+            "USD",
+            "US Dollar"
+        ],
+        [
+            "USN",
+            "US Dollar (Next day)"
+        ],
+        [
+            "UYI",
+            "Uruguay Peso en Unidades Indexadas (UI)"
+        ],
+        [
+            "UYU",
+            "Peso Uruguayo"
+        ],
+        [
+            "UYW",
+            "Unidad Previsional"
+        ],
+        [
+            "UZS",
+            "Uzbekistan Sum"
+        ],
+        [
+            "VED",
+            "Bolívar Soberano"
+        ],
+        [
+            "VES",
+            "Bolívar Soberano"
+        ],
+        [
+            "VND",
+            "Dong"
+        ],
+        [
+            "VUV",
+            "Vatu"
+        ],
+        [
+            "WST",
+            "Tala"
+        ],
+        [
+            "XAD",
+            "Arab Accounting Dinar"
+        ],
+        [
+            "XAF",
+            "CFA Franc BEAC"
+        ],
+        [
+            "XAG",
+            "Silver"
+        ],
+        [
+            "XAU",
+            "Gold"
+        ],
+        [
+            "XBA",
+            "Bond Markets Unit European Composite Unit (EURCO)"
+        ],
+        [
+            "XBB",
+            "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
+        ],
+        [
+            "XBC",
+            "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
+        ],
+        [
+            "XBD",
+            "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
+        ],
+        [
+            "XCD",
+            "East Caribbean Dollar"
+        ],
+        [
+            "XCG",
+            "Caribbean Guilder"
+        ],
+        [
+            "XDR",
+            "SDR (Special Drawing Right)"
+        ],
+        [
+            "XOF",
+            "CFA Franc BCEAO"
+        ],
+        [
+            "XPD",
+            "Palladium"
+        ],
+        [
+            "XPF",
+            "CFP Franc"
+        ],
+        [
+            "XPT",
+            "Platinum"
+        ],
+        [
+            "XSU",
+            "Sucre"
+        ],
+        [
+            "XTS",
+            "Codes specifically reserved for testing purposes"
+        ],
+        [
+            "XUA",
+            "ADB Unit of Account"
+        ],
+        [
+            "XXX",
+            "The codes assigned for transactions where no currency is involved"
+        ],
+        [
+            "YER",
+            "Yemeni Rial"
+        ],
+        [
+            "ZAR",
+            "Rand"
+        ],
+        [
+            "ZMW",
+            "Zambian Kwacha"
+        ],
+        [
+            "ZWG",
+            "Zimbabwe Gold"
+        ]
+    ],
+    "empfohleneCodes": [
+        "AED",
+        "AFN",
+        "ALL",
+        "AMD",
+        "AOA",
+        "ARS",
+        "AUD",
+        "AWG",
+        "AZN",
+        "BAM",
+        "BBD",
+        "BDT",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BOV",
+        "BRL",
+        "BSD",
+        "BTN",
+        "BWP",
+        "BYN",
+        "BZD",
+        "CAD",
+        "CDF",
+        "CHE",
+        "CHF",
+        "CHW",
+        "CLF",
+        "CLP",
+        "CNY",
+        "COP",
+        "COU",
+        "CRC",
+        "CUP",
+        "CVE",
+        "CZK",
+        "DJF",
+        "DKK",
+        "DOP",
+        "DZD",
+        "EGP",
+        "ERN",
+        "ETB",
+        "EUR",
+        "FJD",
+        "FKP",
+        "GBP",
+        "GEL",
+        "GHS",
+        "GIP",
+        "GMD",
+        "GNF",
+        "GTQ",
+        "GYD",
+        "HKD",
+        "HNL",
+        "HTG",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "IQD",
+        "IRR",
+        "ISK",
+        "JMD",
+        "JOD",
+        "JPY",
+        "KES",
+        "KGS",
+        "KHR",
+        "KMF",
+        "KPW",
+        "KRW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MKD",
+        "MMK",
+        "MNT",
+        "MOP",
+        "MRU",
+        "MUR",
+        "MVR",
+        "MWK",
+        "MXN",
+        "MXV",
+        "MYR",
+        "MZN",
+        "NAD",
+        "NGN",
+        "NIO",
+        "NOK",
+        "NPR",
+        "NZD",
+        "OMR",
+        "PAB",
+        "PEN",
+        "PGK",
+        "PHP",
+        "PKR",
+        "PLN",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RUB",
+        "RWF",
+        "SAR",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SEK",
+        "SGD",
+        "SHP",
+        "SLE",
+        "SOS",
+        "SRD",
+        "SSP",
+        "STN",
+        "SVC",
+        "SYP",
+        "SZL",
+        "THB",
+        "TJS",
+        "TMT",
+        "TND",
+        "TOP",
+        "TRY",
+        "TTD",
+        "TWD",
+        "TZS",
+        "UAH",
+        "UGX",
+        "USD",
+        "USN",
+        "UYI",
+        "UYU",
+        "UYW",
+        "UZS",
+        "VED",
+        "VES",
+        "VND",
+        "VUV",
+        "WST",
+        "XAD",
+        "XAF",
+        "XAG",
+        "XAU",
+        "XBA",
+        "XBB",
+        "XBC",
+        "XBD",
+        "XCD",
+        "XCG",
+        "XDR",
+        "XOF",
+        "XPD",
+        "XPF",
+        "XPT",
+        "XSU",
+        "XTS",
+        "XUA",
+        "XXX",
+        "YER",
+        "ZAR",
+        "ZMW",
+        "ZWG"
+    ],
+    "codes": [
+        [
+            "AED",
+            "AFN",
+            "ALL",
+            "AMD",
+            "AOA",
+            "ARS",
+            "AUD",
+            "AWG",
+            "AZN",
+            "BAM",
+            "BBD",
+            "BDT",
+            "BHD",
+            "BIF",
+            "BMD",
+            "BND",
+            "BOB",
+            "BOV",
+            "BRL",
+            "BSD",
+            "BTN",
+            "BWP",
+            "BYN",
+            "BZD",
+            "CAD",
+            "CDF",
+            "CHE",
+            "CHF",
+            "CHW",
+            "CLF",
+            "CLP",
+            "CNY",
+            "COP",
+            "COU",
+            "CRC",
+            "CUP",
+            "CVE",
+            "CZK",
+            "DJF",
+            "DKK",
+            "DOP",
+            "DZD",
+            "EGP",
+            "ERN",
+            "ETB",
+            "EUR",
+            "FJD",
+            "FKP",
+            "GBP",
+            "GEL",
+            "GHS",
+            "GIP",
+            "GMD",
+            "GNF",
+            "GTQ",
+            "GYD",
+            "HKD",
+            "HNL",
+            "HTG",
+            "HUF",
+            "IDR",
+            "ILS",
+            "INR",
+            "IQD",
+            "IRR",
+            "ISK",
+            "JMD",
+            "JOD",
+            "JPY",
+            "KES",
+            "KGS",
+            "KHR",
+            "KMF",
+            "KPW",
+            "KRW",
+            "KWD",
+            "KYD",
+            "KZT",
+            "LAK",
+            "LBP",
+            "LKR",
+            "LRD",
+            "LSL",
+            "LYD",
+            "MAD",
+            "MDL",
+            "MGA",
+            "MKD",
+            "MMK",
+            "MNT",
+            "MOP",
+            "MRU",
+            "MUR",
+            "MVR",
+            "MWK",
+            "MXN",
+            "MXV",
+            "MYR",
+            "MZN",
+            "NAD",
+            "NGN",
+            "NIO",
+            "NOK",
+            "NPR",
+            "NZD",
+            "OMR",
+            "PAB",
+            "PEN",
+            "PGK",
+            "PHP",
+            "PKR",
+            "PLN",
+            "PYG",
+            "QAR",
+            "RON",
+            "RSD",
+            "RUB",
+            "RWF",
+            "SAR",
+            "SBD",
+            "SCR",
+            "SDG",
+            "SEK",
+            "SGD",
+            "SHP",
+            "SLE",
+            "SOS",
+            "SRD",
+            "SSP",
+            "STN",
+            "SVC",
+            "SYP",
+            "SZL",
+            "THB",
+            "TJS",
+            "TMT",
+            "TND",
+            "TOP",
+            "TRY",
+            "TTD",
+            "TWD",
+            "TZS",
+            "UAH",
+            "UGX",
+            "USD",
+            "USN",
+            "UYI",
+            "UYU",
+            "UYW",
+            "UZS",
+            "VED",
+            "VES",
+            "VND",
+            "VUV",
+            "WST",
+            "XAD",
+            "XAF",
+            "XAG",
+            "XAU",
+            "XBA",
+            "XBB",
+            "XBC",
+            "XBD",
+            "XCD",
+            "XCG",
+            "XDR",
+            "XOF",
+            "XPD",
+            "XPF",
+            "XPT",
+            "XSU",
+            "XTS",
+            "XUA",
+            "XXX",
+            "YER",
+            "ZAR",
+            "ZMW",
+            "ZWG"
+        ]
+    ]
+}

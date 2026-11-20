@@ -1,0 +1,481 @@
+{
+    "metadaten": {
+        "version": "2.0",
+        "kennungInhalt": "urn:xoev-de:xdomea:codeliste:dateiformat",
+        "nameTechnisch": "dateiformat",
+        "nameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Dateiformat"
+                }
+            ],
+            "noCodeValue": "Dateiformat",
+            "defaultValue": "Dateiformat",
+            "first": "Dateiformat"
+        },
+        "nameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Dateiformat"
+                }
+            ],
+            "noCodeValue": "Dateiformat",
+            "defaultValue": "Dateiformat",
+            "first": "Dateiformat"
+        },
+        "beschreibung": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Werteliste der gängigen Dateiformate. Für sonstige Formate existiert der Wert \"Sonstiges\". Die Angaben stammen größtenteils aus der internationalen Formatdatenbank PRONOM (http://www.nationalarchives.gov.uk/pronom/)."
+                }
+            ],
+            "noCodeValue": "Die Werteliste der gängigen Dateiformate. Für sonstige Formate existiert der Wert \"Sonstiges\". Die Angaben stammen größtenteils aus der internationalen Formatdatenbank PRONOM (http://www.nationalarchives.gov.uk/pronom/).",
+            "defaultValue": "Die Werteliste der gängigen Dateiformate. Für sonstige Formate existiert der Wert \"Sonstiges\". Die Angaben stammen größtenteils aus der internationalen Formatdatenbank PRONOM (http://www.nationalarchives.gov.uk/pronom/).",
+            "first": "Die Werteliste der gängigen Dateiformate. Für sonstige Formate existiert der Wert \"Sonstiges\". Die Angaben stammen größtenteils aus der internationalen Formatdatenbank PRONOM (http://www.nationalarchives.gov.uk/pronom/)."
+        },
+        "beschreibungVersion": {
+            "liste": [],
+            "noCodeValue": null,
+            "defaultValue": null,
+            "first": null
+        },
+        "herausgebernameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "ag-xdomea"
+                }
+            ],
+            "noCodeValue": "ag-xdomea",
+            "defaultValue": "ag-xdomea",
+            "first": "ag-xdomea"
+        },
+        "herausgebernameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "AG xdomea des IT-Planungsrates"
+                }
+            ],
+            "noCodeValue": "AG xdomea des IT-Planungsrates",
+            "defaultValue": "AG xdomea des IT-Planungsrates",
+            "first": "AG xdomea des IT-Planungsrates"
+        },
+        "aenderungZurVorversion": {
+            "liste": [],
+            "noCodeValue": null,
+            "defaultValue": null,
+            "first": null
+        },
+        "handbuchVersion": "1.2",
+        "bezugsorte": [],
+        "gueltigAb": "2021-10-01T00:00:00Z",
+        "definiertNachCodelistenHandbuch": false,
+        "kennung": "urn:xoev-de:xdomea:codeliste:dateiformat_2.0",
+        "definiertNachXoevHandbuch": true
+    },
+    "spalten": [
+        {
+            "spaltennameLang": "Code",
+            "spaltennameTechnisch": "code",
+            "codeSpalte": true,
+            "empfohleneCodeSpalte": true,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Description",
+            "spaltennameTechnisch": "description",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "MIME Type",
+            "spaltennameTechnisch": "mimeType",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        }
+    ],
+    "daten": [
+        [
+            "001",
+            "Windows Bitmap",
+            "bmp"
+        ],
+        [
+            "002",
+            "Comma Separated Values",
+            "csv"
+        ],
+        [
+            "003",
+            "Microsoft Word for Windows Document",
+            "doc"
+        ],
+        [
+            "004",
+            "Microsoft Word for MS-DOS Document",
+            "doc"
+        ],
+        [
+            "005",
+            "Microsoft Word for Macintosh Document",
+            "doc"
+        ],
+        [
+            "006",
+            "Outlook Express Electronic Mail",
+            "eml"
+        ],
+        [
+            "007",
+            "Hypertext Markup Language",
+            "htm"
+        ],
+        [
+            "008",
+            "Hypertext Markup Language",
+            "html"
+        ],
+        [
+            "009",
+            "JPEG File Interchange Format",
+            "jpe"
+        ],
+        [
+            "010",
+            "JPEG File Interchange Format",
+            "jpeg"
+        ],
+        [
+            "011",
+            "JPEG File Interchange Format",
+            "jpg"
+        ],
+        [
+            "012",
+            "Microsoft Outlook Email Message",
+            "msg"
+        ],
+        [
+            "013",
+            "OpenDocument Presentation Format",
+            "odp"
+        ],
+        [
+            "014",
+            "OpenDocument Spreadsheet Format",
+            "ods"
+        ],
+        [
+            "015",
+            "OpenDocument Text Format",
+            "odt"
+        ],
+        [
+            "016",
+            "OpenDocument Presentation Format Template",
+            "otp"
+        ],
+        [
+            "017",
+            "OpenDocument Spreadsheet Format Template",
+            "ots"
+        ],
+        [
+            "018",
+            "Portable Document Format",
+            "pdf"
+        ],
+        [
+            "019",
+            "Portable Network Graphics",
+            "png"
+        ],
+        [
+            "020",
+            "Microsoft PowerPoint",
+            "ppt"
+        ],
+        [
+            "021",
+            "PostScript",
+            "ps"
+        ],
+        [
+            "022",
+            "Rich Text Format",
+            "rtf"
+        ],
+        [
+            "023",
+            "Tagged Image File Format",
+            "tif"
+        ],
+        [
+            "024",
+            "Tagged Image File Format",
+            "tiff"
+        ],
+        [
+            "025",
+            "Microsoft Works for Windows",
+            "wps"
+        ],
+        [
+            "026",
+            "Microsoft Excel Chart",
+            "xlc"
+        ],
+        [
+            "027",
+            "Microsoft Excel Macro",
+            "xlm"
+        ],
+        [
+            "028",
+            "Binary Interchange File Format (BIFF) Worksheet",
+            "xls"
+        ],
+        [
+            "029",
+            "Binary Interchange File Format (BIFF) Workbook",
+            "xlw"
+        ],
+        [
+            "030",
+            "eXtensible Markup Language",
+            "xml"
+        ],
+        [
+            "031",
+            "XML Schema Definition",
+            "xsd"
+        ],
+        [
+            "032",
+            "Microsoft Word Template",
+            "dot"
+        ],
+        [
+            "033",
+            "Microsoft Powerpoint Design Template",
+            "pot"
+        ],
+        [
+            "034",
+            "Mircosoft Excel Template",
+            "xlt"
+        ],
+        [
+            "035",
+            "Office Open XML Text",
+            "docx"
+        ],
+        [
+            "036",
+            "Office Open XML Spreadsheet",
+            "xlsx"
+        ],
+        [
+            "037",
+            "Office Open XML Presentation",
+            "pptx"
+        ],
+        [
+            "038",
+            "Office Open XML Text Template",
+            "dotx"
+        ],
+        [
+            "039",
+            "Office Open XML Spreadsheet Template",
+            "xltx"
+        ],
+        [
+            "040",
+            "Office Open XML Presentation Template",
+            "potx"
+        ],
+        [
+            "041",
+            "Document Type Definition",
+            "dtd"
+        ],
+        [
+            "042",
+            "Microsoft Project",
+            "mpp"
+        ],
+        [
+            "043",
+            "OpenDocument Text Format Template",
+            "ott"
+        ],
+        [
+            "044",
+            "Portable Document Format (Archival)",
+            "pdf"
+        ],
+        [
+            "045",
+            "Unicode Text File",
+            "txt"
+        ],
+        [
+            "046",
+            "PKCS#7-Zertifikat",
+            "p7b"
+        ],
+        [
+            "047",
+            "PKCS#7-Zertifikat",
+            "p7c"
+        ],
+        [
+            "048",
+            "PKCS#7-MIME-Nachricht",
+            "p7m"
+        ],
+        [
+            "049",
+            "PKCS#7-Signatur",
+            "p7s"
+        ],
+        [
+            "050",
+            "Associated Signature Container Simple",
+            "asics"
+        ],
+        [
+            "051",
+            "Associated Signature Container Simple",
+            "scs"
+        ],
+        [
+            "100",
+            "Sonstiges",
+            null
+        ]
+    ],
+    "empfohleneCodes": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030",
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036",
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042",
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048",
+        "049",
+        "050",
+        "051",
+        "100"
+    ],
+    "codes": [
+        [
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006",
+            "007",
+            "008",
+            "009",
+            "010",
+            "011",
+            "012",
+            "013",
+            "014",
+            "015",
+            "016",
+            "017",
+            "018",
+            "019",
+            "020",
+            "021",
+            "022",
+            "023",
+            "024",
+            "025",
+            "026",
+            "027",
+            "028",
+            "029",
+            "030",
+            "031",
+            "032",
+            "033",
+            "034",
+            "035",
+            "036",
+            "037",
+            "038",
+            "039",
+            "040",
+            "041",
+            "042",
+            "043",
+            "044",
+            "045",
+            "046",
+            "047",
+            "048",
+            "049",
+            "050",
+            "051",
+            "100"
+        ]
+    ]
+}

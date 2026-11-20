@@ -1,0 +1,16 @@
+Croatian rules ( CIUS-HR and EXT-HR ) - terms of the publisher
+
+Publisher: Porezna uprava ( Tax Administration ), Ministarstvo financija, Republika Hrvatska.
+
+The pages of the publisher state ( written here without diacritics ):
+"Sva prava pridrzana (c) 2023 Republika Hrvatska, Ministarstvo financija, Porezna uprava. Sadrzaji s ovih stranica se
+mogu prenositi bez posebne dozvole uz navodjenje izvora."
+In English: all rights reserved; the contents of these pages may be passed on without special permission, provided the
+source is named.
+
+The Schematron files themselves carry no licence and no copyright line. The rule package of VAMPIRE is a translation of
+the Schematron into the rule format of the engine, not the original file; the message texts are reproduced unchanged.
+As the condition asks, every package and every NOTICE names the source:
+
+Source: Porezna uprava, Ministarstvo financija, Republika Hrvatska -
+https://porezna.gov.hr/fiskalizacija/bezgotovinski-racuni/eracun

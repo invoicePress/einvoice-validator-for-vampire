@@ -1,0 +1,22 @@
+Source code of the JavaScript bundles in assets/js/
+
+The files einvoice-model.bundle.js, einvoice-site-validator.bundle.js, einvoice-batch.bundle.js in the folder above are built with esbuild 0.28.2 from the ES modules in this folder.
+Nothing in them is written by hand after the build.
+
+- einvoice-model.bundle.js ( entry src/model/index.mjs ): reads an invoice ( CII, UBL, the XML inside a PDF ) and assembles the EN 16931 model from it.
+- einvoice-site-validator.bundle.js ( entry src/validators/wp-site-validator.mjs ): the buttons of the validator plugins in the viewer.
+- einvoice-batch.bundle.js ( entry src/batch/wp-batch.mjs ): the batch check: many invoices in one run, and the reader of the reports.
+
+To rebuild them:
+
+    cd assets/js/source
+    npm install --no-save esbuild@0.28.2
+    node build.mjs
+
+Some JSON files under src/ are data tables written by a generator in tools/. Each file names its generator in its
+"_comment" entry; the generators are included: tools/build-en16931-structure.mjs.
+
+The translations of the texts the scripts show ( i18n/<language>.json.js ) are generated from the files
+languages/<plugin>-<locale>.po of this plugin: each table holds the msgid and msgstr pairs used by the scripts.
+
+All files are licensed under the GPL, version 2 or later, see LICENSE.

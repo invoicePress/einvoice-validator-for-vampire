@@ -1,0 +1,231 @@
+/* SP eInvoice VAMPIRE Validator — the control shell, rendered in a shadow root.
+ *
+ * ⚠️ **THE LOOK COMES FROM THE DESIGN KIT, NOT FROM THIS FILE.** The drop area uses its building blocks
+ * `.drop`, `.drop-title` and `.drop-sub`, the result `.panel` and `.panel-head`, the message `.note`. Only
+ * what the kit does not cover stands here.
+ *
+ * ⚠️ **THE KIT MUST BE LOADED INTO THE SAME SHADOW ROOT AS THIS FILE.** A `:root` token of the host page does
+ * not reach a shadow root. `SPPV.cssUrl` takes **several** addresses for that, separated by spaces: this
+ * file first, the kit after it - see `sppv-uploader.js`.
+ *
+ * ⚠️ **THIS FILE STANDS BEFORE THE KIT, SO EVERY RULE HERE MUST WIN THROUGH SPECIFICITY**, not through order.
+ * Every rule that modifies a kit building block therefore names `.sppv-root` in front of it.
+ *
+ * ⚠️ **THIS FILE CARRIES NO TOKENS OF ITS OWN.** Tokens of its own would keep the kit's values by hand - a
+ * second copy of every value.
+ *
+ * ⚠️ **THE FONTS ARE DECLARED HERE AND NOT IN THE KIT.** The kit refers to Google Fonts in its header;
+ * wordpress.org forbids that, and the address of every visitor uploading an invoice has no business there
+ * anyway. The font files therefore lie in the package.
+ *
+ * ⚠️ **THE VALIDATOR'S REPORT IS NOT STYLED HERE.** It comes as a complete HTML document with its own
+ * `<style>` and stands in a sealed `<iframe>` - precisely so that this stylesheet and its own need to agree
+ * on nothing. See `assets/js/sppv-uploader.js`.
+ */
+
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url( '../fonts/inter-v20-latin/inter-v20-latin-regular.woff2' ) format( 'woff2' ); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url( '../fonts/inter-v20-latin/inter-v20-latin-500.woff2' ) format( 'woff2' ); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url( '../fonts/inter-v20-latin/inter-v20-latin-600.woff2' ) format( 'woff2' ); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url( '../fonts/inter-v20-latin/inter-v20-latin-700.woff2' ) format( 'woff2' ); }
+
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 600; font-display: swap; src: url( '../fonts/space-grotesk-v22-latin/space-grotesk-v22-latin-600.woff2' ) format( 'woff2' ); }
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 700; font-display: swap; src: url( '../fonts/space-grotesk-v22-latin/space-grotesk-v22-latin-700.woff2' ) format( 'woff2' ); }
+
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url( '../fonts/jetbrains-mono-v24-latin/jetbrains-mono-v24-latin-regular.woff2' ) format( 'woff2' ); }
+@font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url( '../fonts/jetbrains-mono-v24-latin/jetbrains-mono-v24-latin-600.woff2' ) format( 'woff2' ); }
+
+/* **1. The reset of the shadow root.**
+ *
+ * ⚠️ `all: initial` neutralises every property that would otherwise break through the shadow boundary. All
+ * sizes stand in px and not in rem - rem would resolve against the root of the outer document and bring
+ * back the theme dependency that `all: initial` just removed.
+ *
+ * ⚠️ **`var( --text )` WORKS HERE, ALTHOUGH `all: initial` STANDS ABOVE IT.** The token is not inherited from
+ * outside but set by the kit file on the same `:host`; that file loads after this one and wins by order at
+ * equal specificity.
+ *
+ * ⚠️ **NO GREY PAPER SURFACE UNDER THE TOOL.** It would be obvious to set `--bg` here, because the kit puts
+ * its white surfaces on `--bg` and `body` in a WordPress page belongs to the theme. The tool, however, is a
+ * piece of content in someone else's page and stands on that page's ground, just like the viewer's invoice
+ * view. A grey strip across the full width with the drop area cut out of it reads as a foreign body. The
+ * report does not need the surface, because it stands in its own frame with its own styling. */
+
+:host {
+	all: initial;
+	display: block;
+	contain: layout style;
+	font-family: var( --font );
+	font-size: var( --fs );
+	line-height: var( --lh );
+	color: var( --text );
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	padding: var( --pad );
+}
+
+.sppv-root,
+.sppv-root *,
+.sppv-root *::before,
+.sppv-root *::after {
+	box-sizing: border-box;
+}
+
+/* **1a. The font of the chosen kit, explicitly on the root element.**
+ *
+ * ⚠️ **THE RULE ON `:host` ALONE IS NOT ENOUGH.** A theme that sets its font with `body.class *` or a similar
+ * rule hits the host element from outside and beats `:host` in the cascade. Measured with the
+ * theme of this development site: the host carried "HelveticaNeue", and the hint sentence below the drop
+ * area inherited it, with Kit A as well as with Kit H. A rule inside the shadow root cannot be reached by an
+ * outer stylesheet; the comparison tool carries the same solution ( `.spcx` in `spcx.css` ).
+ *
+ * ⚠️ **`var( --font )` WITH THE VALUE OF KIT H AS THE FALLBACK.** The token file of the chosen kit sets the
+ * token on `:host`; with Kit A it is "72", with Kit H Inter. The fallback applies only when the token file
+ * does not load. */
+
+.sppv-root {
+	font-family: var( --font );
+	color: var( --text );
+}
+
+/* ⚠️ `hidden` MUST WIN AGAINST THE KIT'S `display`. The message line is the kit's `.note` ( `display: flex` ) and is
+ * hidden while empty; the browser's own `[hidden]` rule is weaker than any author rule and would lose. */
+.sppv-root [ hidden ] { display: none !important; }
+
+/* **2. The drop area comes entirely from the kit.**
+ *
+ * ⚠️ **THERE IS DELIBERATELY NO RULE FOR `.drop` HERE.** Width, height, focus, the waiting state `busy` with
+ * the spinner and the format marks in the hint sentence stand in section 13 of the kit, and the script sets
+ * `drag` and `busy` with exactly those names. The width follows the kit token `--drop-max`; a tool that
+ * needs another one sets only this token. Every rule of its own for the area would be a second version next
+ * to the kit's.
+ *
+ * There is no section 3 ( waiting state ) in this file for the same reason. */
+
+/* **4. The message line** is the kit's `.note.err` for an error and muted text otherwise; the script sets the class
+ * and hides the empty line ( `say()` in sppv-uploader.js ). Only its place stands here. */
+
+.sppv-message {
+	margin: 12px 0;
+}
+
+/* **4a. Single check and batch check.** The two tabs are the kit's `.tabs`; the batch block draws itself with kit classes
+ * and brings the few rules the kit has no class for ( `BATCH_CSS` in libs/einvoice-core-js/src/batch/ui.mjs ). Only the
+ * places stand here. */
+
+.sppv-modes {
+	margin: 0 0 16px;
+}
+
+.sppv-batch-lede {
+	margin: 0 0 12px;
+	font-size: var( --fs-sm, 13px );
+}
+
+.sppv-batch-message {
+	margin: 12px 0;
+}
+
+.sppv-batch-result:empty { display: none; }
+
+.sppv-batch-result {
+	margin-top: 16px;
+}
+
+/* **5. Das Ergebnisfeld.** */
+
+.sppv-result:empty { display: none; }
+
+/* ⚠️ NO FRAME AROUND THE RESULT ( Ralf, 18.10.2026 ): the button area above the report stands free, like the toolbar
+ * of the viewer, and the report begins with its blue title bar. The parts of the report bring their own panels. */
+.sppv-result {
+	margin-top: 16px;
+}
+
+/* The button area above the report: the action buttons, below them "Reset" alone ( see renderResult() in
+ * sppv-uploader.js for the order ). Both rows are right-aligned. */
+.sppv-result-tools {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 0 0 10px;
+}
+
+/* ⚠️ `row-reverse` PUTS THE FIRST BUTTON ON THE RIGHT, `wrap-reverse` OPENS A FULL ROW UPWARDS. With `row-reverse` the
+ * start of the row is its right edge, so `flex-start` is right-aligned here. */
+.sppv-tools-actions {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-start;
+	gap: 8px;
+}
+
+.sppv-tools-reset {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* ⚠️ THE TITLE BAR IS THE BLUE BAND OF THE VIEWER'S INVOICE HEADER ( `.doc-head` of the design kit: the same
+ * gradient, the same 3 px edge ), so a report and an invoice shown one after the other read as one family.
+ * The colours are the kit's tokens, never fixed values, so Kit S and Kit H each bring their own blue. */
+.sppv-result-head {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px 16px;
+	background: linear-gradient( 135deg, var( --accent-2 ), var( --accent ) );
+	border-bottom: var( --sig-w ) solid var( --accent-2 );
+	color: var( --on-accent );
+	font-size: var( --fs );
+	font-weight: 600;
+	/* A small gap before the first finding ( Ralf, 18.10.2026 ); the verdict bar would otherwise touch the band. */
+	margin-bottom: 12px;
+}
+
+/* ⚠️ THE BUTTONS ARE THE KIT'S `.btn` ( since 19.10.2026, finding B193 ). Until then this place rebuilt `.btn` from
+ * tokens with Kit H's values as fallbacks, and the copy kept Kit H's proportions under every other kit. */
+
+/* **6. The report sits indented in the result panel.**
+ *
+ * ⚠️ **THE SAME 14 px AS `.sppv-result-head`, ON PURPOSE:** the label of the header row and the report below
+ * it stand on one line. Any other value reads as two stacked panels instead of one. Without this rule the
+ * report would stick to the frame - visible at "Errors (0)" and at "Document content", the two parts without
+ * padding of their own. */
+
+.sppv-lite-wrap {
+	padding: 14px;
+}
+
+@media (max-width: 700px) {
+	.sppv-lite-wrap { padding: 10px; }
+}
+
+/* **7. The embedded report gets a height of its own.**
+ *
+ * ⚠️ **THE REPORT DOCUMENT BRINGS ITS OWN WIDTH** and does not follow the frame. The frame therefore needs a
+ * fixed height and its own horizontal scroll instead of squeezing the report; so a document with 500 lines
+ * stays readable without the outer page growing without limit. */
+
+.sppv-report-frame {
+	display: block;
+	width: 100%;
+	height: 70vh;
+	border: 0;
+}
+
+@media (max-width: 700px) {
+	.sppv-report-frame { height: 60vh; }
+}
+
+/* The visible notices of the rule sets: one note of the kit above the report.
+ *
+ * ⚠️ THE KIT LAYS `.note` OUT AS A ROW ( display: flex ). With two rule sets that each carry a notice the
+ * sentences would stand side by side; the column keeps one sentence per line. */
+
+.sppv-rule-notices {
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 16px;
+}

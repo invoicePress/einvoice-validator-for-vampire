@@ -1,0 +1,274 @@
+{
+    "metadaten": {
+        "version": "3",
+        "kennungInhalt": "urn:xoev-de:kosit:codeliste:untdid.5305",
+        "nameTechnisch": "UNTDID.5305",
+        "nameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "UNTDID 5305"
+                }
+            ],
+            "noCodeValue": "UNTDID 5305",
+            "defaultValue": "UNTDID 5305",
+            "first": "UNTDID 5305"
+        },
+        "nameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "UNTDID 5305 Duty or tax or fee category code"
+                }
+            ],
+            "noCodeValue": "UNTDID 5305 Duty or tax or fee category code",
+            "defaultValue": "UNTDID 5305 Duty or tax or fee category code",
+            "first": "UNTDID 5305 Duty or tax or fee category code"
+        },
+        "beschreibung": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Codeliste basiert auf der Codeliste 5305 (Duty or tax or fee category code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert eine Untermenge dieser Liste. Des Weiteren enthält sie alle Einträge, die für die Nutzung im Kontext des Standards XBestellung benötigt werden."
+                }
+            ],
+            "noCodeValue": "Die Codeliste basiert auf der Codeliste 5305 (Duty or tax or fee category code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert eine Untermenge dieser Liste. Des Weiteren enthält sie alle Einträge, die für die Nutzung im Kontext des Standards XBestellung benötigt werden.",
+            "defaultValue": "Die Codeliste basiert auf der Codeliste 5305 (Duty or tax or fee category code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert eine Untermenge dieser Liste. Des Weiteren enthält sie alle Einträge, die für die Nutzung im Kontext des Standards XBestellung benötigt werden.",
+            "first": "Die Codeliste basiert auf der Codeliste 5305 (Duty or tax or fee category code) des United Trade Data Interchange Directory (UNTDID). Sie ist konform zur DIN EN16931-1:2017 und zu dem darauf basierenden Standard XRechnung. EN16931-3-2, 3-3, 3-4 Annex A definiert eine Untermenge dieser Liste. Des Weiteren enthält sie alle Einträge, die für die Nutzung im Kontext des Standards XBestellung benötigt werden."
+        },
+        "beschreibungVersion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert."
+                }
+            ],
+            "noCodeValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert.",
+            "defaultValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert.",
+            "first": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft. Es gibt keine neuen Inhalte. Die Methodik der Codeliste wurde auf das Codelistenhandbuch in der Version 1.1 aktualisiert."
+        },
+        "herausgebernameKurz": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "KoSIT"
+                }
+            ],
+            "noCodeValue": "KoSIT",
+            "defaultValue": "KoSIT",
+            "first": "KoSIT"
+        },
+        "herausgebernameLang": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Koordinierungsstelle für IT-Standards"
+                }
+            ],
+            "noCodeValue": "Koordinierungsstelle für IT-Standards",
+            "defaultValue": "Koordinierungsstelle für IT-Standards",
+            "first": "Koordinierungsstelle für IT-Standards"
+        },
+        "aenderungZurVorversion": {
+            "liste": [
+                {
+                    "lang": null,
+                    "value": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft."
+                }
+            ],
+            "noCodeValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft.",
+            "defaultValue": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft.",
+            "first": "Die Konformität zur Datengrundlage in der Version D20a wurde überprüft."
+        },
+        "handbuchVersion": "1.1",
+        "bezugsorte": [],
+        "gueltigAb": null,
+        "definiertNachCodelistenHandbuch": false,
+        "kennung": "urn:xoev-de:kosit:codeliste:untdid.5305_3",
+        "definiertNachXoevHandbuch": true
+    },
+    "spalten": [
+        {
+            "spaltennameLang": "Code",
+            "spaltennameTechnisch": "code",
+            "codeSpalte": true,
+            "empfohleneCodeSpalte": true,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Name",
+            "spaltennameTechnisch": "name",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        },
+        {
+            "spaltennameLang": "Description",
+            "spaltennameTechnisch": "description",
+            "codeSpalte": false,
+            "empfohleneCodeSpalte": false,
+            "datentyp": "string",
+            "sprache": null,
+            "verwendung": null
+        }
+    ],
+    "daten": [
+        [
+            "A",
+            "Mixed tax rate",
+            "Code specifying that the rate is based on mixed tax."
+        ],
+        [
+            "AA",
+            "Lower rate",
+            "Tax rate is lower than standard rate."
+        ],
+        [
+            "AB",
+            "Exempt for resale",
+            "A tax category code indicating the item is tax exempt when the item is bought for future resale."
+        ],
+        [
+            "AC",
+            "Value Added Tax (VAT) not now due for payment",
+            "A code to indicate that the Value Added Tax (VAT) amount which is due on the current invoice is to be paid on receipt of a separate VAT payment request."
+        ],
+        [
+            "AD",
+            "Value Added Tax (VAT) due from a previous invoice",
+            "A code to indicate that the Value Added Tax (VAT) amount of a previous invoice is to be paid."
+        ],
+        [
+            "AE",
+            "VAT Reverse Charge",
+            "Code specifying that the standard VAT rate is levied from the invoicee."
+        ],
+        [
+            "B",
+            "Transferred (VAT)",
+            "VAT not to be paid to the issuer of the invoice but directly to relevant tax authority."
+        ],
+        [
+            "C",
+            "Duty paid by supplier",
+            "Duty associated with shipment of goods is paid by the supplier; customer receives goods with duty paid."
+        ],
+        [
+            "D",
+            "Value Added Tax (VAT) margin scheme - travel agents",
+            "Indication that the VAT margin scheme for travel agents is applied."
+        ],
+        [
+            "E",
+            "Exempt from tax",
+            "Code specifying that taxes are not applicable."
+        ],
+        [
+            "F",
+            "Value Added Tax (VAT) margin scheme - second-hand goods",
+            "Indication that the VAT margin scheme for second-hand goods is applied."
+        ],
+        [
+            "G",
+            "Free export item, tax not charged",
+            "Code specifying that the item is free export and taxes are not charged."
+        ],
+        [
+            "H",
+            "Higher rate",
+            "Code specifying a higher rate of duty or tax or fee."
+        ],
+        [
+            "I",
+            "Value Added Tax (VAT) margin scheme - works of art Margin scheme — Works of art",
+            "Indication that the VAT margin scheme for works of art is applied."
+        ],
+        [
+            "J",
+            "Value Added Tax (VAT) margin scheme - collector’s items and antiques",
+            "Indication that the VAT margin scheme for collector’s items and antiques is applied."
+        ],
+        [
+            "K",
+            "VAT exempt for EEA intra-community supply of goods and services",
+            "A tax category code indicating the item is VAT exempt due to an intra-community supply in the European Economic Area."
+        ],
+        [
+            "L",
+            "Canary Islands general indirect tax",
+            "Impuesto General Indirecto Canario (IGIC) is an indirect tax levied on goods and services supplied in the Canary Islands (Spain) by traders and professionals, as well as on import of goods."
+        ],
+        [
+            "M",
+            "Tax for production, services and importation in Ceuta and Melilla",
+            "Impuesto sobre la Producción, los Servicios y la Importación (IPSI) is an indirect municipal tax, levied on the production, processing and import of all kinds of movable tangible property, the supply of services and the transfer of immovable property located in the cities of Ceuta and Melilla."
+        ],
+        [
+            "O",
+            "Services outside scope of tax",
+            "Code specifying that taxes are not applicable to the services."
+        ],
+        [
+            "S",
+            "Standard rate",
+            "Code specifying the standard rate."
+        ],
+        [
+            "Z",
+            "Zero rated goods",
+            "Code specifying that the goods are at a zero rate."
+        ]
+    ],
+    "empfohleneCodes": [
+        "A",
+        "AA",
+        "AB",
+        "AC",
+        "AD",
+        "AE",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "O",
+        "S",
+        "Z"
+    ],
+    "codes": [
+        [
+            "A",
+            "AA",
+            "AB",
+            "AC",
+            "AD",
+            "AE",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "O",
+            "S",
+            "Z"
+        ]
+    ]
+}
